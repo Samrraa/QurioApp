@@ -30,5 +30,9 @@
     <string name="q_1_12">Q 1/12</string>
     <string name="image_description">image_description</string>
     <string name="hard">Hard</string>
+    <string name="no_connection">No Connection</string>
+    <string name="offline_error">Oops! It looks like you’re offline. Please check your internet connection to continue playing</string>
+    <string name="retry">Retry</string>
     <string name="loading_game">Loading Game</string>
+
 </resources>
