@@ -1650,7 +1650,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Helper function to recursively build the HTML
         const buildHtmlTree = (node, hasParent = false) => {
-            const roleClass = node.role === 'mentor' ? 'role-mentor' : 'role-mentee';
+            const roleClass = node.role && node.role.toLowerCase().includes('mentee') ? 'role-mentee' : 'role-mentor';
             const hasChildren = node.children && node.children.length > 0;
             const liClasses = [];
 
