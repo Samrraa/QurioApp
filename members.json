@@ -1,7 +1,7 @@
 [
   {
     "id": 122157725,
-    "role": "mentee",
+    "role": "IC1 | Mentee",
     "login": "Mostafa-khaled21",
     "name": "Mostafa Khaled",
     "reported_to": "BassantM",
@@ -9,7 +9,7 @@
   },
   {
     "id": 106277855,
-    "role": "mentee",
+    "role": "IC1 | Mentee",
     "login": "Mostafa-alsaygh",
     "name": "Mostafa Mohamed",
     "reported_to": "mohannadahmed00",
@@ -17,7 +17,7 @@
   },
   {
     "id": 105714212,
-    "role": "mentee",
+    "role": "IC1 | Mentee",
     "login": "Pixelh97",
     "name": "Abdallah Bakhet",
     "reported_to": "BassantM",
@@ -25,7 +25,7 @@
   },
   {
     "id": 54184084,
-    "role": "mentee",
+    "role": "IC1 | Mentee",
     "login": "skaik-mo",
     "name": "Mohammed Skaik",
     "reported_to": "mohannadahmed00",
@@ -33,7 +33,7 @@
   },
   {
     "id": 68463985,
-    "role": "mentee",
+    "role": "IC1 | Mentee",
     "login": "Abdulrahman-Ragab-01",
     "name": "Abdulrahman Mohammad",
     "reported_to": "mohannadahmed00",
@@ -41,7 +41,7 @@
   },
   {
     "id": 143911324,
-    "role": "mentee",
+    "role": "IC1 | Mentee",
     "login": "fatmahgazy",
     "name": "Fatma Hegazy",
     "reported_to": "BassantM",
@@ -49,7 +49,7 @@
   },
   {
     "id": 68463985,
-    "role": "mentee",
+    "role": "IC1 | Mentee",
     "login": "Hasa9nAli",
     "name": "Hasan Ali",
     "reported_to": "mohannadahmed00",
@@ -57,7 +57,7 @@
   },
   {
     "id": 100484790,
-    "role": "mentee",
+    "role": "IC1 | Mentee",
     "login": "marwanqashwa",
     "name": "Marwan Mahmoud",
     "reported_to": "BassantM",
@@ -65,7 +65,7 @@
   },
   {
     "id": 102248144,
-    "role": "mentee",
+    "role": "IC2 | Mentee",
     "login": "BassantM",
     "name": "Bassant Mohammed",
     "reported_to": "Asiasama710",
@@ -73,7 +73,7 @@
   },
   {
     "id": 43306572,
-    "role": "mentee",
+    "role": "IC2 | Mentee",
     "login": "mohannadahmed00",
     "name": "Mohannad Ahmed",
     "reported_to": "Al-Taie",
@@ -81,7 +81,7 @@
   },
   {
     "id": 68463985,
-    "role": "mentor",
+    "role": "IC3 | Mentor",
     "login": "Al-Taie",
     "name": "Ahmed Mones",
     "reported_to": "iBareq",
@@ -89,7 +89,7 @@
   },
   {
     "id": 105972942,
-    "role": "mentor",
+    "role": "IC3 | Mentor",
     "login": "Asiasama710",
     "name": "Asia Okab",
     "reported_to": "iBareq",
@@ -97,7 +97,7 @@
   },
   {
     "id": 68463985,
-    "role": "mentor",
+    "role": "EM4 | PO",
     "login": "iBareq",
     "name": "Bareq Al-Taamah",
     "reported_to": "iBareq",
