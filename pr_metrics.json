@@ -221,6 +221,16 @@
       },
       {
         "author": {
+          "login": "Hasa9nAli",
+          "id": 92353024,
+          "url": "https://github.com/Hasa9nAli"
+        },
+        "first_comment_at": "2025-10-04T11:18:02Z",
+        "last_comment_at": "2025-10-04T11:18:02Z",
+        "count": 1
+      },
+      {
+        "author": {
           "login": "BassantM",
           "id": 102248144,
           "url": "https://github.com/BassantM"
@@ -599,13 +609,33 @@
     "comments": [
       {
         "author": {
+          "login": "mohannadahmed00",
+          "id": 43306572,
+          "url": "https://github.com/mohannadahmed00"
+        },
+        "first_comment_at": "2025-10-04T03:31:15Z",
+        "last_comment_at": "2025-10-04T04:06:17Z",
+        "count": 13
+      },
+      {
+        "author": {
+          "login": "Hasa9nAli",
+          "id": 92353024,
+          "url": "https://github.com/Hasa9nAli"
+        },
+        "first_comment_at": "2025-10-04T11:16:43Z",
+        "last_comment_at": "2025-10-04T12:43:04Z",
+        "count": 2
+      },
+      {
+        "author": {
           "login": "Pixelh97",
           "id": 105714212,
           "url": "https://github.com/Pixelh97"
         },
         "first_comment_at": "2025-10-03T16:13:20Z",
-        "last_comment_at": "2025-10-03T16:13:20Z",
-        "count": 1
+        "last_comment_at": "2025-10-04T11:47:16Z",
+        "count": 15
       },
       {
         "author": {
@@ -614,44 +644,25 @@
           "url": "https://github.com/fatmahgazy"
         },
         "first_comment_at": "2025-10-03T15:16:30Z",
-        "last_comment_at": "2025-10-03T15:16:30Z",
-        "count": 1
+        "last_comment_at": "2025-10-04T09:56:33Z",
+        "count": 8
       }
     ],
-    "approvals": [
-      {
-        "reviewer": {
-          "login": "Mostafa-alsaygh",
-          "id": 106277855,
-          "url": "https://github.com/Mostafa-alsaygh"
-        },
-        "submitted_at": "2025-10-03T17:18:44Z",
-        "commit_id": "bc7f461eeb65a817e06848eb1d9fc372bf3f870b"
-      },
-      {
-        "reviewer": {
-          "login": "Abdulrahman-Ragab-01",
-          "id": 76666355,
-          "url": "https://github.com/Abdulrahman-Ragab-01"
-        },
-        "submitted_at": "2025-10-03T18:01:44Z",
-        "commit_id": "bc7f461eeb65a817e06848eb1d9fc372bf3f870b"
-      }
-    ],
+    "approvals": [],
     "required_approvals": 2,
-    "first_approved_at": "2025-10-03T17:18:44Z",
-    "time_to_first_approval_minutes": 1507.1833333333334,
-    "required_approvals_met_at": "2025-10-03T18:01:44Z",
-    "time_to_required_approvals_minutes": 1550.1833333333334,
+    "first_approved_at": null,
+    "time_to_first_approval_minutes": null,
+    "required_approvals_met_at": null,
+    "time_to_required_approvals_minutes": null,
     "closed_at": null,
     "merged_at": null,
     "merged_by": null,
     "week": "2025-W40",
-    "status": "approved",
+    "status": "pending",
     "diff_stats": {
-      "additions": 1014,
-      "deletions": 0,
-      "changed_files": 10
+      "additions": 592,
+      "deletions": 3,
+      "changed_files": 11
     }
   },
   {
@@ -694,18 +705,36 @@
         },
         "submitted_at": "2025-10-03T22:36:41Z",
         "commit_id": "a4c27a095f97521682b3488738f6dea02c2da497"
+      },
+      {
+        "reviewer": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "submitted_at": "2025-10-04T09:58:27Z",
+        "commit_id": "a4c27a095f97521682b3488738f6dea02c2da497"
+      },
+      {
+        "reviewer": {
+          "login": "Hasa9nAli",
+          "id": 92353024,
+          "url": "https://github.com/Hasa9nAli"
+        },
+        "submitted_at": "2025-10-04T11:14:57Z",
+        "commit_id": "a4c27a095f97521682b3488738f6dea02c2da497"
       }
     ],
     "required_approvals": 2,
     "first_approved_at": "2025-10-03T22:36:41Z",
     "time_to_first_approval_minutes": 1366.3,
-    "required_approvals_met_at": null,
-    "time_to_required_approvals_minutes": null,
+    "required_approvals_met_at": "2025-10-04T09:58:27Z",
+    "time_to_required_approvals_minutes": 2048.0666666666666,
     "closed_at": null,
     "merged_at": null,
     "merged_by": null,
     "week": "2025-W40",
-    "status": "pending",
+    "status": "approved",
     "diff_stats": {
       "additions": 177,
       "deletions": 24,
@@ -1042,18 +1071,27 @@
         },
         "submitted_at": "2025-10-04T12:57:20Z",
         "commit_id": "54b4c0c3c81c980921b14f296f3994c57a540931"
+      },
+      {
+        "reviewer": {
+          "login": "Mostafa-alsaygh",
+          "id": 106277855,
+          "url": "https://github.com/Mostafa-alsaygh"
+        },
+        "submitted_at": "2025-10-04T14:46:20Z",
+        "commit_id": "54b4c0c3c81c980921b14f296f3994c57a540931"
       }
     ],
     "required_approvals": 2,
     "first_approved_at": "2025-10-04T12:57:20Z",
     "time_to_first_approval_minutes": 145.71666666666667,
-    "required_approvals_met_at": null,
-    "time_to_required_approvals_minutes": null,
+    "required_approvals_met_at": "2025-10-04T14:46:20Z",
+    "time_to_required_approvals_minutes": 254.71666666666667,
     "closed_at": null,
     "merged_at": null,
     "merged_by": null,
     "week": "2025-W40",
-    "status": "pending",
+    "status": "approved",
     "diff_stats": {
       "additions": 289,
       "deletions": 0,
