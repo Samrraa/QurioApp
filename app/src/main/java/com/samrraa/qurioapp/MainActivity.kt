@@ -5,7 +5,6 @@ import androidx.activity.enableEdgeToEdge
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.fragment.app.FragmentActivity
 import com.samrraa.qurioapp.databinding.ActivityMainBinding
-import com.samrraa.qurioapp.view.games.GamesFragment
 
 class MainActivity : FragmentActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -15,10 +14,5 @@ class MainActivity : FragmentActivity() {
         enableEdgeToEdge()
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        supportFragmentManager.beginTransaction()
-            .replace(binding.navHostFragment.id, GamesFragment())
-            .commit()
-
     }
 }
