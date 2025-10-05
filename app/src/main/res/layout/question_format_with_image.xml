@@ -4,6 +4,7 @@
     android:layout_width="328dp"
     android:layout_height="wrap_content"
     android:paddingBottom="30dp"
+    app:layout_constraintDimensionRatio="3:5"
     android:background="@drawable/question_format_border">
 
 
@@ -34,7 +35,7 @@
             android:fontFamily="@font/fredoka_one"
             android:text="@string/q_1_12"
             android:textAlignment="center"
-            android:textColor="@color/white"
+            android:textColor="@color/on_primary"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/question_format_image"
             app:layout_constraintStart_toStartOf="@+id/question_format_image"
