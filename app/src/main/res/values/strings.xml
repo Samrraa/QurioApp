@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">QurioApp</string>
+    <string name="keep_it_up">KEEP IT UP!</string>
+    <string name="fire_image">fire_image</string>
+    <string name="day_fire">day fire</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="home">Home</string>
@@ -28,4 +31,8 @@
     <string name="television">Television</string>
     <string name="family">Family</string>
     <string name="food_drink"><![CDATA[Food & Drink]]></string>
+    <string name="no_connection">No Connection</string>
+    <string name="offline_error">Oops! It looks like you’re offline. Please check your internet connection to continue playing</string>
+    <string name="retry">Retry</string>
+    <string name="loading_game">Loading Game</string>
 </resources>
