@@ -19,12 +19,12 @@ class GamesFragment : BaseFragment<FragmentGamesBinding>() {
 
     private fun setupRecycler() {
         val games = listOf(
-            Game("Music", R.drawable.music),
-            Game("Food & Drink", R.drawable.ic_food_and_coffe),
-            Game("Geography", R.drawable.green_image),
-            Game("General knowledge", R.drawable.knowladge),
-            Game("Television", R.drawable.tv),
-            Game("Family", R.drawable.family)
+            Game("Music", R.drawable.music, R.color.secondary),
+            Game("Food & Drink", R.drawable.ic_food_and_coffe, R.color.yellow),
+            Game("Geography", R.drawable.green_image, R.color.green),
+            Game("General knowledge", R.drawable.knowladge, R.color.orange),
+            Game("Television", R.drawable.tv, R.color.secondary),
+            Game("Family", R.drawable.family, R.color.green)
         )
 
         binding.recyclerView.layoutManager = GridLayoutManager(requireContext(), 2)

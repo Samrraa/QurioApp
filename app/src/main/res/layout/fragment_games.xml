@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center_vertical"
-        android:padding="8dp"
+        android:layout_marginTop="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -23,17 +23,16 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:src="@drawable/icon_arrow"
+            android:layout_marginTop="4dp"
+            android:adjustViewBounds="true"
             android:scaleType="centerInside"
-            android:adjustViewBounds="true" />
+            android:src="@drawable/icon_arrow" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:text="@string/game"
-            android:layout_marginTop="6dp"
             android:textColor="@color/shade_primary"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -43,9 +42,8 @@
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:clipToPadding="false"
         app:layout_constraintTop_toBottomOf="@id/topBar"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:listitem="@layout/small_game_card" />
+        tools:listitem="@layout/game_card" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

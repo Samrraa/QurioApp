@@ -1,13 +1,10 @@
 package com.samrraa.qurioapp.view.games
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
-import android.widget.ImageView
-import android.widget.TextView
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.samrraa.qurioapp.R
+import com.samrraa.qurioapp.databinding.GameCardBinding
 import com.samrraa.qurioapp.view.games.model.Game
 
 class GameCardAdapter(
@@ -15,25 +12,32 @@ class GameCardAdapter(
     private val onButtonClick: (Game) -> Unit
 ) : RecyclerView.Adapter<GameCardAdapter.GameCardViewHolder>() {
 
-    inner class GameCardViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val title: TextView = itemView.findViewById(R.id.textTitle)
-        val button: Button = itemView.findViewById(R.id.startGameButton)
-        val image: ImageView = itemView.findViewById(R.id.cardImage)
+    inner class GameCardViewHolder(private val binding: GameCardBinding) :
+        RecyclerView.ViewHolder(binding.root) {
+        fun bind(game: Game) {
+            binding.textTitle.text = game.title
+            binding.gameCardBackgroundView.setImage(game.imageRes)
+            val color = ContextCompat.getColor(binding.root.context, game.borderColor)
+            binding.gameCardBackgroundView.setBorderColor(color)
+            binding.startGameButton.setOnClickListener {
+                onButtonClick(game)
+            }
+        }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): GameCardViewHolder {
-        val view = LayoutInflater.from(parent.context)
-            .inflate(R.layout.small_game_card, parent, false)
-        return GameCardViewHolder(view)
+        val binding = GameCardBinding.inflate(
+            LayoutInflater.from(parent.context),
+            parent,
+            false
+        )
+        return GameCardViewHolder(binding)
+
     }
 
     override fun onBindViewHolder(holder: GameCardViewHolder, position: Int) {
         val game = items[position]
-        holder.title.text = game.title
-        holder.image.setImageResource(game.imageRes)
-        holder.button.setOnClickListener {
-            onButtonClick(game)
-        }
+        holder.bind(game)
     }
 
     override fun getItemCount(): Int = items.size
