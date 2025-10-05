@@ -1121,5 +1121,42 @@
       "deletions": 0,
       "changed_files": 13
     }
+  },
+  {
+    "pr_number": 51,
+    "url": "https://github.com/Samrraa/QurioApp/pull/51",
+    "title": "add implement play button and button styles",
+    "opened_at": "2025-10-05T22:19:04Z",
+    "head_ref": "component/49-design-buttons-component",
+    "base_ref": "develop",
+    "creator": {
+      "login": "skaik-mo",
+      "id": 54184084,
+      "url": "https://github.com/skaik-mo"
+    },
+    "assignees": [
+      {
+        "login": "skaik-mo",
+        "id": 54184084,
+        "url": "https://github.com/skaik-mo"
+      }
+    ],
+    "comments": [],
+    "approvals": [],
+    "required_approvals": 2,
+    "first_approved_at": null,
+    "time_to_first_approval_minutes": null,
+    "required_approvals_met_at": null,
+    "time_to_required_approvals_minutes": null,
+    "closed_at": null,
+    "merged_at": null,
+    "merged_by": null,
+    "week": "2025-W40",
+    "status": "pending",
+    "diff_stats": {
+      "additions": 191,
+      "deletions": 1,
+      "changed_files": 15
+    }
   }
 ]
