@@ -8,14 +8,18 @@ import androidx.recyclerview.widget.GridLayoutManager
 import com.samrraa.qurioapp.R
 import com.samrraa.qurioapp.base.BaseFragment
 import com.samrraa.qurioapp.databinding.FragmentGamesBinding
+import com.samrraa.qurioapp.presenter.GamePresenter
 import com.samrraa.qurioapp.view.games.model.Game
 
-class GamesFragment : BaseFragment<FragmentGamesBinding>() {
+class GamesFragment : BaseFragment<FragmentGamesBinding, IGameView, GamePresenter>(), IGameView {
 
     override fun initViewBinding(
         inflater: LayoutInflater,
         container: ViewGroup?
     ) = FragmentGamesBinding.inflate(inflater, container, false)
+
+    override fun initPresenter(): GamePresenter = GamePresenter(this)
+
 
     private fun setupRecycler() {
         val games = listOf(
