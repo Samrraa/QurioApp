@@ -8,6 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.samrraa.qurioapp.R
+import com.samrraa.qurioapp.view.games.model.Game
 
 class GameCardAdapter(
     private val items: List<Game>,

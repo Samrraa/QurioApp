@@ -4,11 +4,11 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.recyclerview.widget.GridLayoutManager
 import com.samrraa.qurioapp.R
 import com.samrraa.qurioapp.base.BaseFragment
 import com.samrraa.qurioapp.databinding.FragmentGamesBinding
+import com.samrraa.qurioapp.view.games.model.Game
 
 class GamesFragment : BaseFragment<FragmentGamesBinding>() {
 
@@ -28,9 +28,7 @@ class GamesFragment : BaseFragment<FragmentGamesBinding>() {
         )
 
         binding.recyclerView.layoutManager = GridLayoutManager(requireContext(), 2)
-        binding.recyclerView.adapter = GameCardAdapter(games) { game ->
-            Toast.makeText(requireContext(), "Clicked on ${game.title}", Toast.LENGTH_SHORT).show()
-        }
+        binding.recyclerView.adapter = GameCardAdapter(games) {}
 
     }
 
@@ -40,7 +38,3 @@ class GamesFragment : BaseFragment<FragmentGamesBinding>() {
     }
 }
 
-data class Game(
-    val title: String,
-    val imageRes: Int
-)
