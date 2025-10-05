@@ -5,29 +5,34 @@ import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
+import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.launch
 
-abstract class BasePresenter<VIEW : BaseView>(
-    protected val view: VIEW,
-    private val scope: CoroutineScope = CoroutineScope(Dispatchers.Main),
-) {
+abstract class BasePresenter<VIEW : BaseView>(protected var view: VIEW?) {
+    private val job = SupervisorJob()
+    fun clear() {
+        view = null
+        job.cancel()
+    }
+
     protected fun <T> tryToExecute(
         execute: suspend () -> T,
         onSuccess: ((T) -> Unit) = {},
         onError: (Throwable) -> Unit = {},
         onStart: suspend () -> Unit = {},
         onFinally: () -> Unit = {},
-        dispatcher: CoroutineDispatcher = Dispatchers.Main,
+        dispatcher: CoroutineDispatcher = Dispatchers.IO,
     ): Job {
         val handler = CoroutineExceptionHandler { _, throwable ->
-            onError(throwable)
+            onError(
+                throwable
+            )
         }
-
-        return scope.launch(dispatcher + handler) {
+        return CoroutineScope(dispatcher + job + handler).launch {
             onStart()
             runCatching { execute() }
-                .onSuccess { result -> onSuccess.invoke(result) }
-                .onFailure { throwable -> onError(throwable) }
+                .onSuccess(onSuccess)
+                .onFailure(onError)
             onFinally()
         }
     }

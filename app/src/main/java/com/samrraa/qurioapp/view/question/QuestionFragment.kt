@@ -4,7 +4,6 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.lifecycle.lifecycleScope
 import com.samrraa.qurioapp.base.BaseFragment
 import com.samrraa.qurioapp.databinding.FragmentQuestionBinding
 import com.samrraa.qurioapp.presenter.QuestionPresenter
@@ -16,7 +15,7 @@ class QuestionFragment : BaseFragment<FragmentQuestionBinding, IQuestionView, Qu
         container: ViewGroup?
     ) = FragmentQuestionBinding.inflate(inflater, container, false)
 
-    override fun initPresenter() = QuestionPresenter(this, lifecycleScope)
+    override fun initPresenter() = QuestionPresenter(this)
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
