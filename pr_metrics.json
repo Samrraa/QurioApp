@@ -1073,10 +1073,20 @@
         "count": 3
       }
     ],
-    "approvals": [],
+    "approvals": [
+      {
+        "reviewer": {
+          "login": "Mostafa-alsaygh",
+          "id": 106277855,
+          "url": "https://github.com/Mostafa-alsaygh"
+        },
+        "submitted_at": "2025-10-05T15:08:33Z",
+        "commit_id": "9326bb7861fbd3f0ec7e89ce1e6e7b5ba4572ff9"
+      }
+    ],
     "required_approvals": 2,
-    "first_approved_at": null,
-    "time_to_first_approval_minutes": null,
+    "first_approved_at": "2025-10-05T15:08:33Z",
+    "time_to_first_approval_minutes": 1716.9333333333334,
     "required_approvals_met_at": null,
     "time_to_required_approvals_minutes": null,
     "closed_at": null,
