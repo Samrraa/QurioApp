@@ -1030,8 +1030,8 @@
           "url": "https://github.com/Hasa9nAli"
         },
         "first_comment_at": "2025-10-04T12:27:16Z",
-        "last_comment_at": "2025-10-05T10:37:30Z",
-        "count": 12
+        "last_comment_at": "2025-10-05T10:37:49Z",
+        "count": 13
       },
       {
         "author": {
@@ -1044,36 +1044,17 @@
         "count": 3
       }
     ],
-    "approvals": [
-      {
-        "reviewer": {
-          "login": "fatmahgazy",
-          "id": 143911324,
-          "url": "https://github.com/fatmahgazy"
-        },
-        "submitted_at": "2025-10-04T20:02:51Z",
-        "commit_id": "5d5db2b67cc31510776fa521bf4a820e83dd176d"
-      },
-      {
-        "reviewer": {
-          "login": "Mostafa-alsaygh",
-          "id": 106277855,
-          "url": "https://github.com/Mostafa-alsaygh"
-        },
-        "submitted_at": "2025-10-04T21:44:03Z",
-        "commit_id": "5d5db2b67cc31510776fa521bf4a820e83dd176d"
-      }
-    ],
+    "approvals": [],
     "required_approvals": 2,
-    "first_approved_at": "2025-10-04T20:02:51Z",
-    "time_to_first_approval_minutes": 571.2333333333333,
-    "required_approvals_met_at": "2025-10-04T21:44:03Z",
-    "time_to_required_approvals_minutes": 672.4333333333333,
+    "first_approved_at": null,
+    "time_to_first_approval_minutes": null,
+    "required_approvals_met_at": null,
+    "time_to_required_approvals_minutes": null,
     "closed_at": null,
     "merged_at": null,
     "merged_by": null,
     "week": "2025-W40",
-    "status": "approved",
+    "status": "pending",
     "diff_stats": {
       "additions": 289,
       "deletions": 0,
