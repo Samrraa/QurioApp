@@ -696,49 +696,21 @@
         "count": 1
       }
     ],
-    "approvals": [
-      {
-        "reviewer": {
-          "login": "Mostafa-alsaygh",
-          "id": 106277855,
-          "url": "https://github.com/Mostafa-alsaygh"
-        },
-        "submitted_at": "2025-10-03T22:36:41Z",
-        "commit_id": "a4c27a095f97521682b3488738f6dea02c2da497"
-      },
-      {
-        "reviewer": {
-          "login": "fatmahgazy",
-          "id": 143911324,
-          "url": "https://github.com/fatmahgazy"
-        },
-        "submitted_at": "2025-10-04T09:58:27Z",
-        "commit_id": "a4c27a095f97521682b3488738f6dea02c2da497"
-      },
-      {
-        "reviewer": {
-          "login": "Hasa9nAli",
-          "id": 92353024,
-          "url": "https://github.com/Hasa9nAli"
-        },
-        "submitted_at": "2025-10-04T11:14:57Z",
-        "commit_id": "a4c27a095f97521682b3488738f6dea02c2da497"
-      }
-    ],
+    "approvals": [],
     "required_approvals": 2,
-    "first_approved_at": "2025-10-03T22:36:41Z",
-    "time_to_first_approval_minutes": 1366.3,
-    "required_approvals_met_at": "2025-10-04T09:58:27Z",
-    "time_to_required_approvals_minutes": 2048.0666666666666,
+    "first_approved_at": null,
+    "time_to_first_approval_minutes": null,
+    "required_approvals_met_at": null,
+    "time_to_required_approvals_minutes": null,
     "closed_at": null,
     "merged_at": null,
     "merged_by": null,
     "week": "2025-W40",
-    "status": "approved",
+    "status": "pending",
     "diff_stats": {
-      "additions": 177,
-      "deletions": 24,
-      "changed_files": 15
+      "additions": 176,
+      "deletions": 23,
+      "changed_files": 14
     }
   },
   {
