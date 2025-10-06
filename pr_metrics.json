@@ -671,7 +671,7 @@
     "status": "pending",
     "diff_stats": {
       "additions": 592,
-      "deletions": 3,
+      "deletions": 4,
       "changed_files": 11
     }
   },
@@ -1130,6 +1130,83 @@
       "additions": 290,
       "deletions": 0,
       "changed_files": 13
+    }
+  },
+  {
+    "pr_number": 50,
+    "url": "https://github.com/Samrraa/QurioApp/pull/50",
+    "title": "feat/implement-games-screen",
+    "opened_at": "2025-10-05T15:49:56Z",
+    "head_ref": "feat/implement-games-screen",
+    "base_ref": "develop",
+    "creator": {
+      "login": "fatmahgazy",
+      "id": 143911324,
+      "url": "https://github.com/fatmahgazy"
+    },
+    "assignees": [
+      {
+        "login": "fatmahgazy",
+        "id": 143911324,
+        "url": "https://github.com/fatmahgazy"
+      }
+    ],
+    "comments": [
+      {
+        "author": {
+          "login": "Mostafa-khaled21",
+          "id": 122157725,
+          "url": "https://github.com/Mostafa-khaled21"
+        },
+        "first_comment_at": "2025-10-05T16:00:57Z",
+        "last_comment_at": "2025-10-05T17:12:17Z",
+        "count": 2
+      },
+      {
+        "author": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "first_comment_at": "2025-10-05T16:10:32Z",
+        "last_comment_at": "2025-10-05T17:45:28Z",
+        "count": 2
+      }
+    ],
+    "approvals": [
+      {
+        "reviewer": {
+          "login": "Mostafa-khaled21",
+          "id": 122157725,
+          "url": "https://github.com/Mostafa-khaled21"
+        },
+        "submitted_at": "2025-10-05T17:55:32Z",
+        "commit_id": "85ba8faf95d3c753ede8e046b1faa5a857bb8753"
+      },
+      {
+        "reviewer": {
+          "login": "marwanqashwa",
+          "id": 100484790,
+          "url": "https://github.com/marwanqashwa"
+        },
+        "submitted_at": "2025-10-05T19:23:54Z",
+        "commit_id": "85ba8faf95d3c753ede8e046b1faa5a857bb8753"
+      }
+    ],
+    "required_approvals": 2,
+    "first_approved_at": "2025-10-05T17:55:32Z",
+    "time_to_first_approval_minutes": 125.6,
+    "required_approvals_met_at": "2025-10-05T19:23:54Z",
+    "time_to_required_approvals_minutes": 213.96666666666667,
+    "closed_at": null,
+    "merged_at": null,
+    "merged_by": null,
+    "week": "2025-W40",
+    "status": "approved",
+    "diff_stats": {
+      "additions": 167,
+      "deletions": 23,
+      "changed_files": 44
     }
   },
   {
