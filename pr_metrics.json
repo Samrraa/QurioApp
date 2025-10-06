@@ -1241,7 +1241,18 @@
         "url": "https://github.com/skaik-mo"
       }
     ],
-    "comments": [],
+    "comments": [
+      {
+        "author": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "first_comment_at": "2025-10-06T19:59:05Z",
+        "last_comment_at": "2025-10-06T19:59:27Z",
+        "count": 2
+      }
+    ],
     "approvals": [],
     "required_approvals": 2,
     "first_approved_at": null,
