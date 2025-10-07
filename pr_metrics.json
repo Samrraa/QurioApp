@@ -1311,10 +1311,20 @@
       }
     ],
     "comments": [],
-    "approvals": [],
+    "approvals": [
+      {
+        "reviewer": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "submitted_at": "2025-10-07T10:36:14Z",
+        "commit_id": "ec4f846726b8ef578b69528e2a216a4beed7df63"
+      }
+    ],
     "required_approvals": 2,
-    "first_approved_at": null,
-    "time_to_first_approval_minutes": null,
+    "first_approved_at": "2025-10-07T10:36:14Z",
+    "time_to_first_approval_minutes": 100.5,
     "required_approvals_met_at": null,
     "time_to_required_approvals_minutes": null,
     "closed_at": null,
