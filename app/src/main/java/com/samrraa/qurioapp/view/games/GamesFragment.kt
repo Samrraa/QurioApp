@@ -25,7 +25,7 @@ class GamesFragment : BaseFragment<FragmentGamesBinding, IGameView, GamePresente
     }
 
 
-    override fun onShowGamesSuccess(games: List<GameCategoryUi>) {
+    override fun onGetGamesCategoriesSuccess(games: List<GameCategoryUi>) {
         binding.recyclerView.layoutManager = GridLayoutManager(requireContext(), 2)
         binding.recyclerView.adapter = GameCardAdapter(games) {}
     }

@@ -14,7 +14,7 @@ class GamePresenter(
         tryToExecute(
             execute = { gameRepository.getGames().toUi() },
             onSuccess = { game ->
-                view?.onShowGamesSuccess(game)
+                view?.onGetGamesCategoriesSuccess(game)
             }
         )
 
