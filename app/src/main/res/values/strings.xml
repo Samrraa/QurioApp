@@ -48,4 +48,7 @@
     <string name="character">Character</string>
     <string name="confirm">Confirm</string>
     <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="character_age">Age: 12 Sunblooms</string>
+    <string name="character_description">Nature’s little explorer! Rika talks to mushrooms and swears squirrels give her battle advice. Always ready for an adventure.</string>
 </resources>
