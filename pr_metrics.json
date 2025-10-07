@@ -1341,11 +1341,15 @@
     "time_to_first_approval_minutes": 2456.383333333333,
     "required_approvals_met_at": "2025-10-07T16:44:43Z",
     "time_to_required_approvals_minutes": 2545.65,
-    "closed_at": null,
-    "merged_at": null,
-    "merged_by": null,
+    "closed_at": "2025-10-07T17:02:31Z",
+    "merged_at": "2025-10-07T17:02:31Z",
+    "merged_by": {
+      "login": "skaik-mo",
+      "id": 54184084,
+      "url": "https://github.com/skaik-mo"
+    },
     "week": "2025-W40",
-    "status": "approved",
+    "status": "merged",
     "diff_stats": {
       "additions": 209,
       "deletions": 0,
