@@ -33,5 +33,8 @@
     <string name="offline_error">Oops! It looks like you’re offline. Please check your internet connection to continue playing</string>
     <string name="retry">Retry</string>
     <string name="loading_game">Loading Game</string>
+    <string name="lives">lives</string>
+    <string name="points">Points</string>
+    <string name="awards">Awards</string>
 
 </resources>
