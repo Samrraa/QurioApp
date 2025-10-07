@@ -1494,6 +1494,16 @@
     "comments": [
       {
         "author": {
+          "login": "mohannadahmed00",
+          "id": 43306572,
+          "url": "https://github.com/mohannadahmed00"
+        },
+        "first_comment_at": "2025-10-07T16:05:27Z",
+        "last_comment_at": "2025-10-07T16:05:43Z",
+        "count": 2
+      },
+      {
+        "author": {
           "login": "skaik-mo",
           "id": 54184084,
           "url": "https://github.com/skaik-mo"
