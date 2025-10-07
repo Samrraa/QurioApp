@@ -1,6 +1,8 @@
 package com.samrraa.qurioapp.view.games
 
+import android.os.Bundle
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.GridLayoutManager
 import com.samrraa.qurioapp.base.BaseFragment
@@ -23,9 +25,14 @@ class GamesFragment : BaseFragment<FragmentGamesBinding, IGameView, GamePresente
     }
 
 
-    override fun showGames(games: List<Game>) {
+    override fun onShowGamesSuccess(games: List<Game>) {
         binding.recyclerView.layoutManager = GridLayoutManager(requireContext(), 2)
         binding.recyclerView.adapter = GameCardAdapter(games) {}
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        presenter.getGames()
     }
 
 }

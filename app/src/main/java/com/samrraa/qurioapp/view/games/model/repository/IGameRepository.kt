@@ -1,7 +1,7 @@
 package com.samrraa.qurioapp.view.games.model.repository
 
-import com.samrraa.qurioapp.view.games.model.Game
+import com.samrraa.qurioapp.view.games.model.GameCategory
 
 interface IGameRepository {
-    fun getGames(): List<Game>
+    fun getGames(): List<GameCategory>
 }

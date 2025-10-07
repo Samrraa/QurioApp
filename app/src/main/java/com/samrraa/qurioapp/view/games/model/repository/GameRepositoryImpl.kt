@@ -1,22 +1,20 @@
 package com.samrraa.qurioapp.view.games.model.repository
 
-import com.samrraa.qurioapp.R
-import com.samrraa.qurioapp.view.games.model.Game
 import com.samrraa.qurioapp.view.games.model.GameCategory
 
 class GameRepositoryImpl : IGameRepository {
-    override fun getGames(): List<Game> {
+    override fun getGames(): List<GameCategory> {
         return listOf(
-            Game(GameCategory.MUSIC, R.drawable.music, R.color.secondary),
-            Game(GameCategory.FOOD_AND_DRINK, R.drawable.food_and_drink, R.color.yellow),
-            Game(GameCategory.GEOGRAPHY, R.drawable.geography, R.color.green),
-            Game(
-                GameCategory.GENERAL_KNOWLEDGE,
-                R.drawable.general_knowledge,
-                R.color.orange
-            ),
-            Game(GameCategory.FILM_AND_TV, R.drawable.televtion, R.color.secondary),
-            Game(GameCategory.SOCIETY_AND_CULTURE, R.drawable.family, R.color.green)
+            GameCategory.MUSIC,
+            GameCategory.FOOD_AND_DRINK,
+            GameCategory.GEOGRAPHY,
+            GameCategory.GENERAL_KNOWLEDGE,
+            GameCategory.FILM_AND_TV,
+            GameCategory.SOCIETY_AND_CULTURE,
+            GameCategory.SCIENCE,
+            GameCategory.SPORT_AND_LEISURE,
+            GameCategory.HISTORY,
+            GameCategory.ARTS_AND_LITERATURE
         )
 
     }
