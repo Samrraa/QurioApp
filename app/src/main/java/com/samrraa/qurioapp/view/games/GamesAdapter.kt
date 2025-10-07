@@ -15,7 +15,7 @@ class GameCardAdapter(
     inner class GameCardViewHolder(private val binding: GameCardBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind(game: Game) {
-            binding.textTitle.text = game.title.toString()
+            binding.textTitle.setText(game.title)
             binding.gameCardBackgroundView.setImage(game.imageRes)
             val color = ContextCompat.getColor(binding.root.context, game.borderColor)
             binding.gameCardBackgroundView.setBorderColor(color)
