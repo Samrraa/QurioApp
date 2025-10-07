@@ -18,6 +18,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
+        android:id="@+id/add_lives"
         android:layout_width="16dp"
         android:layout_height="16dp"
         android:layout_marginTop="2dp"
@@ -45,7 +46,6 @@
         android:layout_marginTop="2dp"
         android:src="@drawable/ic_coin"
         app:layout_constraintEnd_toStartOf="@+id/lives_count"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="@id/lives_container"
         app:layout_constraintTop_toBottomOf="@id/lives_label" />
@@ -60,14 +60,14 @@
         android:textColor="@color/shade_primary"
         app:layout_constraintBottom_toBottomOf="@id/lives_icon"
         app:layout_constraintEnd_toEndOf="@id/lives_container"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/lives_icon"
         app:layout_constraintTop_toTopOf="@id/lives_icon"
         tools:text="4" />
 
     <View
-        android:layout_width="48dp"
+        android:layout_width="0dp"
         android:layout_height="2dp"
+        android:layout_marginHorizontal="16dp"
         android:layout_marginBottom="0.5dp"
         android:background="@drawable/statistics_indicator"
         app:layout_constraintBottom_toBottomOf="@id/lives_container"
@@ -111,7 +111,6 @@
         android:layout_marginTop="2dp"
         android:src="@drawable/coin_stack"
         app:layout_constraintEnd_toStartOf="@+id/points_count"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="@id/points_container"
         app:layout_constraintTop_toBottomOf="@id/points_label" />
@@ -126,15 +125,15 @@
         android:textColor="@color/shade_primary"
         app:layout_constraintBottom_toBottomOf="@id/points_icon"
         app:layout_constraintEnd_toEndOf="@id/points_container"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/points_icon"
         app:layout_constraintTop_toTopOf="@id/points_icon"
         tools:text="5200" />
 
     <View
-        android:layout_width="67dp"
+        android:layout_width="0dp"
         android:layout_height="2dp"
         android:layout_marginBottom="0.5dp"
+        android:layout_marginHorizontal="16dp"
         android:background="@drawable/statistics_indicator"
         app:layout_constraintBottom_toBottomOf="@id/points_container"
         app:layout_constraintEnd_toEndOf="@id/points_container"
@@ -167,7 +166,6 @@
         android:layout_marginTop="2dp"
         android:src="@drawable/ic_trophy"
         app:layout_constraintEnd_toStartOf="@+id/awards_count"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="@id/awards_container"
         app:layout_constraintTop_toBottomOf="@id/awards_label" />
@@ -195,14 +193,14 @@
         android:src="@drawable/ic_arrow_right_circle"
         app:layout_constraintBottom_toBottomOf="@id/awards_icon"
         app:layout_constraintEnd_toEndOf="@id/awards_container"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/awards_count"
         app:layout_constraintTop_toTopOf="@id/awards_icon" />
 
     <View
-        android:layout_width="48dp"
+        android:layout_width="0dp"
         android:layout_height="2dp"
         android:layout_marginBottom="0.5dp"
+        android:layout_marginHorizontal="16dp"
         android:background="@drawable/statistics_indicator"
         app:layout_constraintBottom_toBottomOf="@id/awards_container"
         app:layout_constraintEnd_toEndOf="@id/awards_container"
