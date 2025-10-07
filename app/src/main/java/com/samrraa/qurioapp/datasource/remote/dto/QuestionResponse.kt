@@ -2,14 +2,14 @@ package com.samrraa.qurioapp.datasource.remote.dto
 
 import com.google.gson.annotations.SerializedName
 
-data class TriviaResponse(
+data class QuestionResponse(
     @SerializedName("response_code")
     val responseCode: Int,
     @SerializedName("results")
-    val result: List<TriviaQuestion>
+    val result: List<Question>
 )
 
-data class TriviaQuestion(
+data class Question(
 
     @SerializedName("type")
     val type: String? = null,

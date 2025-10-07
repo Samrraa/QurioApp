@@ -1,6 +1,6 @@
 package com.samrraa.qurioapp.datasource.remote
 
-import com.samrraa.qurioapp.datasource.remote.dto.TriviaResponse
+import com.samrraa.qurioapp.datasource.remote.dto.QuestionResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 
@@ -11,5 +11,5 @@ interface TriviaApiService {
         @Query("category") category: Int? = null,
         @Query("difficulty") difficulty: String? = null,
         @Query("type") type: String? = null
-    ): TriviaResponse
+    ): QuestionResponse
 }
