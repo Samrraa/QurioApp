@@ -1,13 +1,12 @@
 package com.samrraa.qurioapp.datasource.remote
 
+import com.samrraa.qurioapp.datasource.remote.NetworkConstant.BASE_URL
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitClient {
-
-    private const val BASE_URL = "https://opentdb.com/"
 
     private val loggingInterceptor = HttpLoggingInterceptor().apply {
         level = HttpLoggingInterceptor.Level.BODY
