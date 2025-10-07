@@ -1491,6 +1491,16 @@
         "first_comment_at": "2025-10-07T14:56:18Z",
         "last_comment_at": "2025-10-07T14:56:18Z",
         "count": 1
+      },
+      {
+        "author": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "first_comment_at": "2025-10-07T15:03:38Z",
+        "last_comment_at": "2025-10-07T15:03:38Z",
+        "count": 1
       }
     ],
     "approvals": [],
@@ -1507,7 +1517,7 @@
     "diff_stats": {
       "additions": 94,
       "deletions": 0,
-      "changed_files": 6
+      "changed_files": 11
     }
   },
   {
