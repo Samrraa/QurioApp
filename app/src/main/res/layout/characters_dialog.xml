@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/corners_cut_shape"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="13dp"
+        android:contentDescription="@string/card_background"
+        android:scaleType="fitXY"
+        android:src="@drawable/dialog_border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="328:301"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="56dp"
+        android:layout_height="1dp"
+        android:background="@drawable/blue_linear_gradiant"
+        android:rotation="180"
+        android:translationX="5dp"
+        app:layout_constraintEnd_toStartOf="@id/heptagon_shape"
+        app:layout_constraintTop_toTopOf="@id/corners_cut_shape" />
+
+    <View
+        android:layout_width="56dp"
+        android:layout_height="1dp"
+        android:background="@drawable/blue_linear_gradiant"
+        android:translationX="-5dp"
+        app:layout_constraintStart_toEndOf="@id/heptagon_shape"
+        app:layout_constraintTop_toTopOf="@id/corners_cut_shape" />
+
+    <ImageView
+        android:id="@+id/heptagon_shape"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/card_background"
+        android:src="@drawable/heptagon_shape"
+        app:layout_constraintDimensionRatio="145:40"
+        app:layout_constraintEnd_toEndOf="@id/corners_cut_shape"
+        app:layout_constraintStart_toStartOf="@id/corners_cut_shape"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/buy_life"
+        style="@style/Title.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/on_primary"
+        app:layout_constraintBottom_toBottomOf="@+id/heptagon_shape"
+        app:layout_constraintEnd_toEndOf="@id/heptagon_shape"
+        app:layout_constraintStart_toStartOf="@id/heptagon_shape"
+        app:layout_constraintTop_toTopOf="@id/heptagon_shape"
+        tools:text="@string/character" />
+
+    <ImageView
+        android:id="@+id/close_shape"
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:clickable="true"
+        android:contentDescription="@string/card_background"
+        android:src="@drawable/close"
+        app:layout_constraintDimensionRatio="22:26"
+        app:layout_constraintEnd_toEndOf="@+id/corners_cut_shape"
+        app:layout_constraintTop_toTopOf="@+id/corners_cut_shape" />
+
+    <GridLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:columnCount="5"
+        app:layout_constraintBottom_toTopOf="@+id/buttons_layout"
+        app:layout_constraintEnd_toEndOf="@+id/corners_cut_shape"
+        app:layout_constraintStart_toStartOf="@+id/corners_cut_shape"
+        app:layout_constraintTop_toBottomOf="@+id/heptagon_shape">
+
+        <include
+            layout="@layout/chosen_character"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1" />
+
+        <include
+            layout="@layout/opened_character"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1" />
+
+        <include
+            layout="@layout/opened_character"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1" />
+
+        <include
+            layout="@layout/opened_character"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1" />
+
+        <include
+            layout="@layout/locked_character"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1" />
+
+        <include
+            layout="@layout/locked_character"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1" />
+
+        <include
+            layout="@layout/locked_character"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1" />
+
+        <include
+            layout="@layout/locked_character"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1" />
+
+        <include
+            layout="@layout/locked_character"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1" />
+
+    </GridLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginBottom="36dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/corners_cut_shape"
+        app:layout_constraintEnd_toEndOf="@+id/corners_cut_shape"
+        app:layout_constraintStart_toStartOf="@+id/corners_cut_shape">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_buy"
+            style="@style/Label.Medium"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/primary_button_background"
+            android:text="@string/confirm"
+            android:textAllCaps="false"
+            android:textColor="@drawable/primary_button_text_color" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_cancel"
+            style="@style/Label.Medium"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/secondary_button_background"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            android:textColor="@drawable/secondary_button_text_color" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

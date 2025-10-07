@@ -45,4 +45,7 @@
     <string name="film_tv"><![CDATA[Film & TV]]></string>
     <string name="arts_literature"><![CDATA[Arts & Literature]]></string>
     <string name="general_knowledge">General Knowledge</string>
+    <string name="character">Character</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
 </resources>
