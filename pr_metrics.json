@@ -1406,6 +1406,26 @@
     "comments": [
       {
         "author": {
+          "login": "skaik-mo",
+          "id": 54184084,
+          "url": "https://github.com/skaik-mo"
+        },
+        "first_comment_at": "2025-10-07T13:20:01Z",
+        "last_comment_at": "2025-10-07T13:48:04Z",
+        "count": 3
+      },
+      {
+        "author": {
+          "login": "Abdulrahman-Ragab-01",
+          "id": 76666355,
+          "url": "https://github.com/Abdulrahman-Ragab-01"
+        },
+        "first_comment_at": "2025-10-07T13:23:36Z",
+        "last_comment_at": "2025-10-07T13:50:36Z",
+        "count": 7
+      },
+      {
+        "author": {
           "login": "Mostafa-khaled21",
           "id": 122157725,
           "url": "https://github.com/Mostafa-khaled21"
@@ -1421,8 +1441,8 @@
           "url": "https://github.com/fatmahgazy"
         },
         "first_comment_at": "2025-10-07T11:30:25Z",
-        "last_comment_at": "2025-10-07T11:38:05Z",
-        "count": 4
+        "last_comment_at": "2025-10-07T14:03:12Z",
+        "count": 5
       }
     ],
     "approvals": [],
