@@ -5,16 +5,16 @@ import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.samrraa.qurioapp.databinding.GameCardBinding
-import com.samrraa.qurioapp.view.games.model.Game
+import com.samrraa.qurioapp.view.games.model.GameCategoryUi
 
 class GameCardAdapter(
-    private val items: List<Game>,
-    private val onButtonClick: (Game) -> Unit
+    private val items: List<GameCategoryUi>,
+    private val onButtonClick: (GameCategoryUi) -> Unit
 ) : RecyclerView.Adapter<GameCardAdapter.GameCardViewHolder>() {
 
     inner class GameCardViewHolder(private val binding: GameCardBinding) :
         RecyclerView.ViewHolder(binding.root) {
-        fun bind(game: Game) {
+        fun bind(game: GameCategoryUi) {
             binding.textTitle.setText(game.title)
             binding.gameCardBackgroundView.setImage(game.imageRes)
             val color = ContextCompat.getColor(binding.root.context, game.borderColor)
