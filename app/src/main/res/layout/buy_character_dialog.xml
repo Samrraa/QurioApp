@@ -19,8 +19,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
-        android:layout_width="56dp"
+        android:id="@+id/gradient_left"
+        android:layout_width="0dp"
         android:layout_height="1dp"
+        app:layout_constraintDimensionRatio="56:1"
         android:background="@drawable/blue_linear_gradiant"
         android:rotation="180"
         android:translationX="5dp"
@@ -28,8 +30,10 @@
         app:layout_constraintTop_toTopOf="@id/corners_cut_shape" />
 
     <View
-        android:layout_width="56dp"
+        android:id="@+id/gradient_right"
+        android:layout_width="0dp"
         android:layout_height="1dp"
+        app:layout_constraintDimensionRatio="56:1"
         android:background="@drawable/blue_linear_gradiant"
         android:translationX="-5dp"
         app:layout_constraintStart_toEndOf="@id/heptagon_shape"
@@ -70,115 +74,102 @@
         app:layout_constraintEnd_toEndOf="@+id/corners_cut_shape"
         app:layout_constraintTop_toTopOf="@+id/corners_cut_shape" />
 
-
-    <LinearLayout
-        android:id="@+id/coins_layout"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="12dp"
-        android:layout_marginTop="92dp"
-        android:layout_marginBottom="105dp"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:weightSum="1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/corners_cut_shape"
+    <ImageView
+        android:id="@+id/character_image"
+        android:layout_width="47dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="53dp"
+        android:contentDescription="@string/character_image"
+        android:src="@drawable/character_image"
+        app:layout_constraintEnd_toStartOf="@+id/equal"
+        app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="@+id/corners_cut_shape"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/heptagon_shape" />
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            >
+    <ImageView
+        android:id="@+id/lock"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="12dp"
+        android:contentDescription="@string/lock_icon"
+        android:src="@drawable/lock"
+        app:layout_constraintBottom_toBottomOf="@+id/character_image"
+        app:layout_constraintEnd_toEndOf="@+id/character_image"
+        app:layout_constraintStart_toStartOf="@+id/character_image" />
 
-            <ImageView
-                android:id="@+id/character_image"
-                android:layout_width="47dp"
-                android:layout_height="64dp"
-                android:contentDescription="@string/character_image"
-                android:src="@drawable/character_image"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="pa"/>
-
-            <ImageView
-                android:id="@+id/lock"
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:layout_marginBottom="12dp"
-                android:contentDescription="@string/lock_icon"
-                android:src="@drawable/lock"
-                app:layout_constraintBottom_toBottomOf="@+id/character_image"
-                app:layout_constraintEnd_toEndOf="@+id/character_image"
-                app:layout_constraintStart_toStartOf="@+id/character_image"
-                app:layout_constraintTop_toTopOf="parent" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-        <TextView
-            android:id="@+id/equal"
-            style="@style/Headline.Medium"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="19dp"
-            android:text="@string/equal_sign"
-            android:textColor="@color/on_primary" />
-
-        <TextView
-            android:id="@+id/coins_total"
-            style="@style/Headline.Medium"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="10dp"
-            android:text="@string/_300_x"
-            android:textColor="@color/on_primary" />
-
-        <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:contentDescription="@string/coins_icon"
-            android:src="@drawable/coin_stack" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/buttons_layout"
-        android:layout_width="0dp"
+    <TextView
+        android:id="@+id/equal"
+        style="@style/Headline.Medium"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="12dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="19dp"
+        android:text="@string/equal_sign"
+        android:textColor="@color/on_primary"
+        app:layout_constraintBottom_toBottomOf="@+id/character_image"
+        app:layout_constraintEnd_toStartOf="@+id/coins_total"
+        app:layout_constraintStart_toEndOf="@+id/character_image"
+        app:layout_constraintTop_toTopOf="@+id/character_image" />
+
+    <TextView
+        android:id="@+id/coins_total"
+        style="@style/Headline.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:text="@string/_300_x"
+        android:textColor="@color/on_primary"
+        app:layout_constraintBottom_toBottomOf="@+id/character_image"
+        app:layout_constraintEnd_toStartOf="@+id/coin_icon"
+        app:layout_constraintStart_toEndOf="@+id/equal"
+        app:layout_constraintTop_toTopOf="@+id/character_image" />
+
+    <ImageView
+        android:id="@+id/coin_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/coins_icon"
+        android:src="@drawable/coin_stack"
+        app:layout_constraintBottom_toBottomOf="@+id/character_image"
+        app:layout_constraintEnd_toEndOf="@+id/corners_cut_shape"
+        app:layout_constraintStart_toEndOf="@+id/coins_total"
+        app:layout_constraintTop_toTopOf="@+id/character_image" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_buy"
+        style="@style/Label.Medium"
+        android:layout_width="0dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="12dp"
         android:layout_marginTop="24dp"
+        android:layout_marginEnd="2dp"
         android:layout_marginBottom="36dp"
-        android:gravity="center"
-        android:orientation="horizontal"
+        android:background="@drawable/primary_button_background"
+        android:text="@string/buy"
+        android:textAllCaps="false"
+        android:textColor="@drawable/primary_button_text_color"
         app:layout_constraintBottom_toBottomOf="@+id/corners_cut_shape"
-        app:layout_constraintEnd_toEndOf="@+id/corners_cut_shape"
+        app:layout_constraintEnd_toStartOf="@+id/btn_cancel"
+        app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="@+id/corners_cut_shape"
-        app:layout_constraintTop_toBottomOf="@+id/coins_layout">
+        app:layout_constraintTop_toBottomOf="@+id/character_image" />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_buy"
-            style="@style/Label.Medium"
-            android:layout_width="0dp"
-            android:layout_height="44dp"
-            android:layout_marginEnd="2dp"
-            android:layout_weight="1"
-            android:background="@drawable/primary_button_background"
-            android:text="@string/buy"
-            android:textAllCaps="false"
-            android:textColor="@drawable/primary_button_text_color" />
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_cancel"
-            style="@style/Label.Medium"
-            android:layout_width="0dp"
-            android:layout_height="44dp"
-            android:layout_marginStart="2dp"
-            android:layout_weight="1"
-            android:background="@drawable/secondary_button_background"
-            android:text="@string/cancel"
-            android:textAllCaps="false"
-            android:textColor="@drawable/secondary_button_text_color" />
-    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_cancel"
+        style="@style/Label.Medium"
+        android:layout_width="0dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/secondary_button_background"
+        android:text="@string/cancel"
+        android:textAllCaps="false"
+        android:textColor="@drawable/secondary_button_text_color"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_buy"
+        app:layout_constraintEnd_toEndOf="@+id/corners_cut_shape"
+        app:layout_constraintStart_toEndOf="@+id/btn_buy"
+        app:layout_constraintTop_toTopOf="@+id/btn_buy"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
