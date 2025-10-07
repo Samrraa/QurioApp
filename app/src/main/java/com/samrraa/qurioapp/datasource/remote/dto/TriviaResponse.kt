@@ -27,5 +27,5 @@ data class TriviaQuestion(
     val correctAnswer: String? = null,
 
     @SerializedName("incorrect_answers")
-    val incorrectAnswers: List<String>? = emptyList()
+    val incorrectAnswers: List<String> = emptyList()
 )
