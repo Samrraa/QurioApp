@@ -1,4 +1,4 @@
-package com.samrraa.qurioapp.view.games.model
+package com.samrraa.qurioapp.model
 
 enum class GameCategory {
     GEOGRAPHY,
