@@ -1300,7 +1300,7 @@
     "status": "pending",
     "diff_stats": {
       "additions": 209,
-      "deletions": 1,
+      "deletions": 0,
       "changed_files": 10
     }
   },
