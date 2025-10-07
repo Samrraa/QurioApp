@@ -1732,5 +1732,42 @@
       "deletions": 1,
       "changed_files": 14
     }
+  },
+  {
+    "pr_number": 61,
+    "url": "https://github.com/Samrraa/QurioApp/pull/61",
+    "title": "Feature/characters dialog",
+    "opened_at": "2025-10-07T22:18:34Z",
+    "head_ref": "feature/characters-dialog",
+    "base_ref": "develop",
+    "creator": {
+      "login": "Abdulrahman-Ragab-01",
+      "id": 76666355,
+      "url": "https://github.com/Abdulrahman-Ragab-01"
+    },
+    "assignees": [
+      {
+        "login": "Abdulrahman-Ragab-01",
+        "id": 76666355,
+        "url": "https://github.com/Abdulrahman-Ragab-01"
+      }
+    ],
+    "comments": [],
+    "approvals": [],
+    "required_approvals": 2,
+    "first_approved_at": null,
+    "time_to_first_approval_minutes": null,
+    "required_approvals_met_at": null,
+    "time_to_required_approvals_minutes": null,
+    "closed_at": null,
+    "merged_at": null,
+    "merged_by": null,
+    "week": "2025-W41",
+    "status": "pending",
+    "diff_stats": {
+      "additions": 737,
+      "deletions": 0,
+      "changed_files": 14
+    }
   }
 ]
