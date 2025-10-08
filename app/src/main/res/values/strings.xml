@@ -7,7 +7,6 @@
     <string name="keep_it_up">KEEP IT UP!</string>
     <string name="fire_image">fire_image</string>
     <string name="day_fire">day fire</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="home">Home</string>
     <string name="onboarding">Onboarding</string>
@@ -24,17 +23,27 @@
     <string name="coin_stack">coin stack</string>
     <string name="star">star</string>
     <string name="clock">clock</string>
+    <string name="reward">reward</string>
+    <string name="correct">Correct</string>
+    <string name="great_job">Great Job</string>
     <string name="games">Games</string>
     <string name="last_games">Last Games</string>
     <string name="game_result">Game Result</string>
+    <string name="incorrect">Incorrect</string>
+    <string name="skipped">Skipped</string>
+    <string name="you_lose">You Lose</string>
     <string name="game">Game</string>
     <string name="no_connection">No Connection</string>
     <string name="offline_error">Oops! It looks like you’re offline. Please check your internet connection to continue playing</string>
     <string name="retry">Retry</string>
     <string name="loading_game">Loading Game</string>
+    <string name="coins_stack_icon">Coins stack icon</string>
+    <string name="you_got_a_star">You got a star!</string>
     <string name="start_right_icon">start right icon</string>
     <string name="start_left_icon">start left icon</string>
-    <string name="play_now">play now</string>
+    <string name="lives">lives</string>
+    <string name="points">Points</string>
+    <string name="awards">Awards</string>
     <string name="music">Music</string>
     <string name="food_drink"><![CDATA[Food & Drink]]></string>
     <string name="geography">Geography</string>
@@ -55,4 +64,7 @@
     <string name="buy_character">Buy Character</string>
     <string name="equal_sign">=</string>
     <string name="_300_x">300 X</string>
+    <string name="buy_life">Buy life</string>
+    <string name="_1">1</string>
+    <string name="_200_x">200 X</string>
 </resources>
