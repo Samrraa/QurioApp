@@ -1,16 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/surface"
-    tools:context=".view.onboarding.OnboardingFragment">
+    android:background="@color/surface">
 
-    <TextView
-        android:id="@+id/text_view"
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/onboardingViewPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="@string/onboarding" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</FrameLayout>
+    <!-- left -->
+    <ImageButton
+        android:id="@+id/btnPrev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_variant"
+        android:backgroundTint="@color/transparent"
+        android:contentDescription="@string/previous"
+        android:src="@drawable/left_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:contentDescription="@string/left_arrow"
+        android:src="@drawable/left_arrow"
+        app:layout_constraintBottom_toBottomOf="@id/btnPrev"
+        app:layout_constraintEnd_toEndOf="@id/btnPrev"
+        app:layout_constraintStart_toStartOf="@id/btnPrev"
+        app:layout_constraintTop_toTopOf="@id/btnPrev"
+        app:tint="@color/shade_tertiary" />
+
+    <!-- right -->
+    <ImageButton
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:backgroundTint="@color/transparent"
+        android:contentDescription="@string/next"
+        android:src="@drawable/right_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:contentDescription="@string/righ_arrow"
+        android:src="@drawable/right_arrow"
+        app:layout_constraintBottom_toBottomOf="@id/btnNext"
+        app:layout_constraintEnd_toEndOf="@id/btnNext"
+        app:layout_constraintStart_toStartOf="@id/btnNext"
+        app:layout_constraintTop_toTopOf="@id/btnNext"
+        app:tint="@color/shade_tertiary" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/transparent"
+        android:contentDescription="@string/swipe_up_to_play"
+        android:src="@drawable/swip_up"
+        app:layout_constraintBottom_toTopOf="@id/swip_up_to_play_txt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/swip_up_to_play_txt"
+        style="@style/Label.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/swipe_up_to_play"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
