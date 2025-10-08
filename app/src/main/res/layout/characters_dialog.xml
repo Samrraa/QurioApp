@@ -73,73 +73,18 @@
         app:layout_constraintEnd_toEndOf="@+id/corners_cut_shape"
         app:layout_constraintTop_toTopOf="@+id/corners_cut_shape" />
 
-    <GridLayout
-        android:id="@+id/grid_layout"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/characters_recycler_view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
         android:layout_marginVertical="22dp"
-        android:columnCount="5"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="5"
         app:layout_constraintBottom_toTopOf="@+id/btn_confirm"
         app:layout_constraintEnd_toEndOf="@+id/corners_cut_shape"
         app:layout_constraintStart_toStartOf="@+id/corners_cut_shape"
-        app:layout_constraintTop_toBottomOf="@+id/heptagon_shape">
-
-        <include
-            layout="@layout/chosen_character"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1" />
-
-        <include
-            layout="@layout/opened_character"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1" />
-
-        <include
-            layout="@layout/opened_character"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1" />
-
-        <include
-            layout="@layout/opened_character"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1" />
-
-        <include
-            layout="@layout/locked_character"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1" />
-
-        <include
-            layout="@layout/locked_character"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1" />
-
-        <include
-            layout="@layout/locked_character"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1" />
-
-        <include
-            layout="@layout/locked_character"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1" />
-
-        <include
-            layout="@layout/locked_character"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1" />
-
-    </GridLayout>
+        app:layout_constraintTop_toBottomOf="@+id/heptagon_shape" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_confirm"
