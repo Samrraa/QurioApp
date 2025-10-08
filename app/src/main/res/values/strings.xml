@@ -59,10 +59,17 @@
     <string name="film_tv"><![CDATA[Film & TV]]></string>
     <string name="arts_literature"><![CDATA[Arts & Literature]]></string>
     <string name="general_knowledge">General Knowledge</string>
+    <string name="character">Character</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="character_age">Age: 12 Sunblooms</string>
+    <string name="character_description">Nature’s little explorer! Rika talks to mushrooms and swears squirrels give her battle advice. Always ready for an adventure.</string>
+    <string name="buy">Buy</string>
+    <string name="buy_character">Buy Character</string>
+    <string name="equal_sign">=</string>
+    <string name="_300_x">300 X</string>
     <string name="buy_life">Buy life</string>
     <string name="_1">1</string>
-    <string name="equal_sign">=</string>
     <string name="_200_x">200 X</string>
-    <string name="buy">Buy</string>
-    <string name="cancel">Cancel</string>
 </resources>
