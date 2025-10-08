@@ -48,4 +48,10 @@
     <string name="film_tv"><![CDATA[Film & TV]]></string>
     <string name="arts_literature"><![CDATA[Arts & Literature]]></string>
     <string name="general_knowledge">General Knowledge</string>
+    <string name="buy_life">Buy life</string>
+    <string name="_1">1</string>
+    <string name="equal_sign">=</string>
+    <string name="_200_x">200 X</string>
+    <string name="buy">Buy</string>
+    <string name="cancel">Cancel</string>
 </resources>
