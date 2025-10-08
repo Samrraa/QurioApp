@@ -1,29 +1,37 @@
 <resources>
     <string name="app_name">QurioApp</string>
+    <string name="back_arrow_icon">back arrow icon</string>
+    <string name="ic_setting_icon">setting icon</string>
+    <string name="ic_welcome_qurio_explorer">Welcome Qurio explorer</string>
+    <string name="character_image">character image</string>
     <string name="keep_it_up">KEEP IT UP!</string>
     <string name="fire_image">fire_image</string>
     <string name="day_fire">day fire</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="home">Home</string>
     <string name="onboarding">Onboarding</string>
     <string name="question">Question</string>
-    <string name="character_image">Character Image</string>
     <string name="rika">Rika</string>
     <string name="check_icon">Check Icon</string>
     <string name="lock_icon">lock icon</string>
     <string name="coins_icon">coins icon</string>
     <string name="_30k">30k</string>
     <string name="game_img">game img</string>
+    <string name="play_now">Play Now</string>
     <string name="start_game">Start Game</string>
-    <string name="geography">Geography</string>
     <string name="card_background">card background</string>
     <string name="coin_stack">coin stack</string>
     <string name="star">star</string>
     <string name="clock">clock</string>
+    <string name="reward">reward</string>
+    <string name="correct">Correct</string>
+    <string name="great_job">Great Job</string>
     <string name="games">Games</string>
     <string name="last_games">Last Games</string>
     <string name="game_result">Game Result</string>
+    <string name="incorrect">Incorrect</string>
+    <string name="skipped">Skipped</string>
+    <string name="you_lose">You Lose</string>
     <string name="game">Game</string>
     <string name="no_connection">No Connection</string>
     <string name="offline_error">Oops! It looks like you’re offline. Please check your internet connection to continue playing</string>
@@ -45,4 +53,27 @@
     <string name="left_arrow">left arrow</string>
     <string name="righ_arrow">righ arrow</string>
 
+    <string name="coins_stack_icon">Coins stack icon</string>
+    <string name="you_got_a_star">You got a star!</string>
+    <string name="start_right_icon">start right icon</string>
+    <string name="start_left_icon">start left icon</string>
+    <string name="lives">lives</string>
+    <string name="points">Points</string>
+    <string name="awards">Awards</string>
+    <string name="music">Music</string>
+    <string name="food_drink"><![CDATA[Food & Drink]]></string>
+    <string name="geography">Geography</string>
+    <string name="science">Science</string>
+    <string name="society_culture"><![CDATA[Society & Culture]]></string>
+    <string name="sport_leisure"><![CDATA[Sport & Leisure]]></string>
+    <string name="history">History</string>
+    <string name="film_tv"><![CDATA[Film & TV]]></string>
+    <string name="arts_literature"><![CDATA[Arts & Literature]]></string>
+    <string name="general_knowledge">General Knowledge</string>
+    <string name="buy_life">Buy life</string>
+    <string name="_1">1</string>
+    <string name="equal_sign">=</string>
+    <string name="_200_x">200 X</string>
+    <string name="buy">Buy</string>
+    <string name="cancel">Cancel</string>
 </resources>
