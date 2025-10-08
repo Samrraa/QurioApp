@@ -638,7 +638,17 @@
         },
         "first_comment_at": "2025-10-04T03:31:15Z",
         "last_comment_at": "2025-10-04T04:06:17Z",
-        "count": 13
+        "count": 12
+      },
+      {
+        "author": {
+          "login": "Abdulrahman-Ragab-01",
+          "id": 76666355,
+          "url": "https://github.com/Abdulrahman-Ragab-01"
+        },
+        "first_comment_at": "2025-10-07T12:37:09Z",
+        "last_comment_at": "2025-10-07T12:37:09Z",
+        "count": 1
       },
       {
         "author": {
@@ -658,7 +668,7 @@
         },
         "first_comment_at": "2025-10-03T16:13:20Z",
         "last_comment_at": "2025-10-04T11:47:16Z",
-        "count": 15
+        "count": 14
       },
       {
         "author": {
@@ -671,21 +681,53 @@
         "count": 8
       }
     ],
-    "approvals": [],
+    "approvals": [
+      {
+        "reviewer": {
+          "login": "mohannadahmed00",
+          "id": 43306572,
+          "url": "https://github.com/mohannadahmed00"
+        },
+        "submitted_at": "2025-10-08T17:09:52Z",
+        "commit_id": "0d7088ee758aa3b7c38a0dbacf0be1988060aca5"
+      },
+      {
+        "reviewer": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "submitted_at": "2025-10-08T17:39:05Z",
+        "commit_id": "0d7088ee758aa3b7c38a0dbacf0be1988060aca5"
+      },
+      {
+        "reviewer": {
+          "login": "Abdulrahman-Ragab-01",
+          "id": 76666355,
+          "url": "https://github.com/Abdulrahman-Ragab-01"
+        },
+        "submitted_at": "2025-10-08T17:39:33Z",
+        "commit_id": "0d7088ee758aa3b7c38a0dbacf0be1988060aca5"
+      }
+    ],
     "required_approvals": 2,
-    "first_approved_at": null,
-    "time_to_first_approval_minutes": null,
-    "required_approvals_met_at": null,
-    "time_to_required_approvals_minutes": null,
-    "closed_at": null,
-    "merged_at": null,
-    "merged_by": null,
+    "first_approved_at": "2025-10-08T17:09:52Z",
+    "time_to_first_approval_minutes": 8698.316666666668,
+    "required_approvals_met_at": "2025-10-08T17:39:05Z",
+    "time_to_required_approvals_minutes": 8727.533333333333,
+    "closed_at": "2025-10-08T17:39:31Z",
+    "merged_at": "2025-10-08T17:39:31Z",
+    "merged_by": {
+      "login": "Pixelh97",
+      "id": 105714212,
+      "url": "https://github.com/Pixelh97"
+    },
     "week": "2025-W40",
-    "status": "pending",
+    "status": "merged",
     "diff_stats": {
       "additions": 592,
-      "deletions": 4,
-      "changed_files": 11
+      "deletions": 15,
+      "changed_files": 12
     }
   },
   {
@@ -1463,8 +1505,8 @@
           "url": "https://github.com/Mostafa-khaled21"
         },
         "first_comment_at": "2025-10-07T11:47:34Z",
-        "last_comment_at": "2025-10-07T15:53:24Z",
-        "count": 6
+        "last_comment_at": "2025-10-08T12:07:11Z",
+        "count": 10
       },
       {
         "author": {
@@ -1473,25 +1515,66 @@
           "url": "https://github.com/fatmahgazy"
         },
         "first_comment_at": "2025-10-07T11:30:25Z",
-        "last_comment_at": "2025-10-07T14:03:12Z",
-        "count": 5
+        "last_comment_at": "2025-10-07T19:32:29Z",
+        "count": 6
       }
     ],
-    "approvals": [],
+    "approvals": [
+      {
+        "reviewer": {
+          "login": "Abdulrahman-Ragab-01",
+          "id": 76666355,
+          "url": "https://github.com/Abdulrahman-Ragab-01"
+        },
+        "submitted_at": "2025-10-08T17:51:16Z",
+        "commit_id": "cc9b3e6332c6d35d6c92ab1f46fb8944a3289946"
+      },
+      {
+        "reviewer": {
+          "login": "BassantM",
+          "id": 102248144,
+          "url": "https://github.com/BassantM"
+        },
+        "submitted_at": "2025-10-08T17:51:30Z",
+        "commit_id": "cc9b3e6332c6d35d6c92ab1f46fb8944a3289946"
+      },
+      {
+        "reviewer": {
+          "login": "skaik-mo",
+          "id": 54184084,
+          "url": "https://github.com/skaik-mo"
+        },
+        "submitted_at": "2025-10-08T17:51:43Z",
+        "commit_id": "cc9b3e6332c6d35d6c92ab1f46fb8944a3289946"
+      },
+      {
+        "reviewer": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "submitted_at": "2025-10-08T17:51:58Z",
+        "commit_id": "cc9b3e6332c6d35d6c92ab1f46fb8944a3289946"
+      }
+    ],
     "required_approvals": 2,
-    "first_approved_at": null,
-    "time_to_first_approval_minutes": null,
-    "required_approvals_met_at": null,
-    "time_to_required_approvals_minutes": null,
-    "closed_at": null,
-    "merged_at": null,
-    "merged_by": null,
+    "first_approved_at": "2025-10-08T17:51:16Z",
+    "time_to_first_approval_minutes": 1844.85,
+    "required_approvals_met_at": "2025-10-08T17:51:30Z",
+    "time_to_required_approvals_minutes": 1845.0833333333333,
+    "closed_at": "2025-10-08T17:52:09Z",
+    "merged_at": "2025-10-08T17:52:09Z",
+    "merged_by": {
+      "login": "Mostafa-khaled21",
+      "id": 122157725,
+      "url": "https://github.com/Mostafa-khaled21"
+    },
     "week": "2025-W41",
-    "status": "pending",
+    "status": "merged",
     "diff_stats": {
-      "additions": 471,
-      "deletions": 0,
-      "changed_files": 19
+      "additions": 823,
+      "deletions": 62,
+      "changed_files": 20
     }
   },
   {
@@ -1805,22 +1888,82 @@
         "first_comment_at": "2025-10-08T05:01:07Z",
         "last_comment_at": "2025-10-08T05:31:53Z",
         "count": 17
+      },
+      {
+        "author": {
+          "login": "Abdulrahman-Ragab-01",
+          "id": 76666355,
+          "url": "https://github.com/Abdulrahman-Ragab-01"
+        },
+        "first_comment_at": "2025-10-08T09:17:28Z",
+        "last_comment_at": "2025-10-08T21:48:16Z",
+        "count": 17
       }
     ],
     "approvals": [
       {
         "reviewer": {
-          "login": "fatmahgazy",
-          "id": 143911324,
-          "url": "https://github.com/fatmahgazy"
+          "login": "mohannadahmed00",
+          "id": 43306572,
+          "url": "https://github.com/mohannadahmed00"
         },
-        "submitted_at": "2025-10-07T23:22:07Z",
-        "commit_id": "bd314fcd4606ccb623c2494c0916d9668d2a1476"
+        "submitted_at": "2025-10-08T21:55:03Z",
+        "commit_id": "a80e615fce48c3014d4d53787a437f25da2369d6"
+      },
+      {
+        "reviewer": {
+          "login": "skaik-mo",
+          "id": 54184084,
+          "url": "https://github.com/skaik-mo"
+        },
+        "submitted_at": "2025-10-08T21:56:03Z",
+        "commit_id": "a80e615fce48c3014d4d53787a437f25da2369d6"
       }
     ],
     "required_approvals": 2,
-    "first_approved_at": "2025-10-07T23:22:07Z",
-    "time_to_first_approval_minutes": 63.55,
+    "first_approved_at": "2025-10-08T21:55:03Z",
+    "time_to_first_approval_minutes": 1416.4833333333333,
+    "required_approvals_met_at": "2025-10-08T21:56:03Z",
+    "time_to_required_approvals_minutes": 1417.4833333333333,
+    "closed_at": "2025-10-08T21:56:16Z",
+    "merged_at": "2025-10-08T21:56:16Z",
+    "merged_by": {
+      "login": "Abdulrahman-Ragab-01",
+      "id": 76666355,
+      "url": "https://github.com/Abdulrahman-Ragab-01"
+    },
+    "week": "2025-W41",
+    "status": "merged",
+    "diff_stats": {
+      "additions": 665,
+      "deletions": 3,
+      "changed_files": 13
+    }
+  },
+  {
+    "pr_number": 62,
+    "url": "https://github.com/Samrraa/QurioApp/pull/62",
+    "title": "feature/on-boarding-screen",
+    "opened_at": "2025-10-08T21:36:28Z",
+    "head_ref": "feature/on-boarding-screen",
+    "base_ref": "develop",
+    "creator": {
+      "login": "BassantM",
+      "id": 102248144,
+      "url": "https://github.com/BassantM"
+    },
+    "assignees": [
+      {
+        "login": "BassantM",
+        "id": 102248144,
+        "url": "https://github.com/BassantM"
+      }
+    ],
+    "comments": [],
+    "approvals": [],
+    "required_approvals": 2,
+    "first_approved_at": null,
+    "time_to_first_approval_minutes": null,
     "required_approvals_met_at": null,
     "time_to_required_approvals_minutes": null,
     "closed_at": null,
@@ -1829,9 +1972,9 @@
     "week": "2025-W41",
     "status": "pending",
     "diff_stats": {
-      "additions": 731,
-      "deletions": 0,
-      "changed_files": 14
+      "additions": 523,
+      "deletions": 14,
+      "changed_files": 32
     }
   }
 ]
