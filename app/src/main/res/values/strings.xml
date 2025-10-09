@@ -67,4 +67,13 @@
     <string name="buy_life">Buy life</string>
     <string name="_1">1</string>
     <string name="_200_x">200 X</string>
+    <string name="title">title</string>
+    <string name="achievements">Achievements</string>
+    <string name="close_shape">close shape</string>
+    <string name="explorer">Explorer</string>
+    <string name="you_love_experimenting_and_discovering_you_ve_tried_several_categories_and_aren_t_limited_to_just_none_how_to_get_play_in_at_least_4_different_categories">You love experimenting and discovering! You\'ve tried several categories and aren\'t limited to just \none.\nhow to get:\nPlay in at least 4 different categories.</string>
+    <string name="share_with_friends">Share with friends</string>
+    <string name="click_on_achievement_to_view_details">*Click on achievement to view details</string>
+    <string name="achievement_name">Achievement Name</string>
+    <string name="achievement_image">achievement image</string>
 </resources>
