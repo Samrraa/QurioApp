@@ -2006,18 +2006,27 @@
         },
         "submitted_at": "2025-10-09T16:45:42Z",
         "commit_id": "ebf36fc3a3a784e97650233388e4ccb05732c328"
+      },
+      {
+        "reviewer": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "submitted_at": "2025-10-09T16:51:20Z",
+        "commit_id": "ebf36fc3a3a784e97650233388e4ccb05732c328"
       }
     ],
     "required_approvals": 2,
     "first_approved_at": "2025-10-09T16:45:42Z",
     "time_to_first_approval_minutes": 26.15,
-    "required_approvals_met_at": null,
-    "time_to_required_approvals_minutes": null,
+    "required_approvals_met_at": "2025-10-09T16:51:20Z",
+    "time_to_required_approvals_minutes": 31.783333333333335,
     "closed_at": null,
     "merged_at": null,
     "merged_by": null,
     "week": "2025-W41",
-    "status": "pending",
+    "status": "approved",
     "diff_stats": {
       "additions": 499,
       "deletions": 0,
