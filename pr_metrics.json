@@ -1976,5 +1976,42 @@
       "deletions": 14,
       "changed_files": 32
     }
+  },
+  {
+    "pr_number": 63,
+    "url": "https://github.com/Samrraa/QurioApp/pull/63",
+    "title": "feat:Add achievement list and detail dialogs",
+    "opened_at": "2025-10-09T16:19:33Z",
+    "head_ref": "feature/achievements-dialog",
+    "base_ref": "develop",
+    "creator": {
+      "login": "marwanqashwa",
+      "id": 100484790,
+      "url": "https://github.com/marwanqashwa"
+    },
+    "assignees": [
+      {
+        "login": "marwanqashwa",
+        "id": 100484790,
+        "url": "https://github.com/marwanqashwa"
+      }
+    ],
+    "comments": [],
+    "approvals": [],
+    "required_approvals": 2,
+    "first_approved_at": null,
+    "time_to_first_approval_minutes": null,
+    "required_approvals_met_at": null,
+    "time_to_required_approvals_minutes": null,
+    "closed_at": null,
+    "merged_at": null,
+    "merged_by": null,
+    "week": "2025-W41",
+    "status": "pending",
+    "diff_stats": {
+      "additions": 499,
+      "deletions": 0,
+      "changed_files": 9
+    }
   }
 ]
