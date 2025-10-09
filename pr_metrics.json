@@ -2094,5 +2094,42 @@
       "deletions": 182,
       "changed_files": 59
     }
+  },
+  {
+    "pr_number": 65,
+    "url": "https://github.com/Samrraa/QurioApp/pull/65",
+    "title": "feat: Add game result screen",
+    "opened_at": "2025-10-09T22:24:04Z",
+    "head_ref": "feature/16-implement-result-screen",
+    "base_ref": "develop",
+    "creator": {
+      "login": "fatmahgazy",
+      "id": 143911324,
+      "url": "https://github.com/fatmahgazy"
+    },
+    "assignees": [
+      {
+        "login": "fatmahgazy",
+        "id": 143911324,
+        "url": "https://github.com/fatmahgazy"
+      }
+    ],
+    "comments": [],
+    "approvals": [],
+    "required_approvals": 2,
+    "first_approved_at": null,
+    "time_to_first_approval_minutes": null,
+    "required_approvals_met_at": null,
+    "time_to_required_approvals_minutes": null,
+    "closed_at": null,
+    "merged_at": null,
+    "merged_by": null,
+    "week": "2025-W41",
+    "status": "pending",
+    "diff_stats": {
+      "additions": 130,
+      "deletions": 7,
+      "changed_files": 4
+    }
   }
 ]
