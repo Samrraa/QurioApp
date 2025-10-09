@@ -20,4 +20,6 @@
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
     <color name="transparent">#00000000</color>
+    <color name="lose_red">#E6311F</color>
+    <color name="win_blue">#1980B2</color>
 </resources>
