@@ -2056,7 +2056,18 @@
         "url": "https://github.com/fatmahgazy"
       }
     ],
-    "comments": [],
+    "comments": [
+      {
+        "author": {
+          "login": "Hasa9nAli",
+          "id": 92353024,
+          "url": "https://github.com/Hasa9nAli"
+        },
+        "first_comment_at": "2025-10-09T21:09:00Z",
+        "last_comment_at": "2025-10-09T21:12:01Z",
+        "count": 4
+      }
+    ],
     "approvals": [],
     "required_approvals": 2,
     "first_approved_at": null,
