@@ -4,18 +4,30 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.Fragment
+import com.samrraa.qurioapp.base.BaseFragment
 import com.samrraa.qurioapp.databinding.FragmentGameResultBinding
+import com.samrraa.qurioapp.presenter.GameResultPresenter
+import com.samrraa.qurioapp.repository.GameRepository
+import javax.inject.Inject
 
-class GameResultFragment : Fragment() {
-    private lateinit var binding: FragmentGameResultBinding
+class GameResultFragment :
+    BaseFragment<FragmentGameResultBinding, IGameResultView, GameResultPresenter>(),
+    IGameResultView {
 
-    override fun onCreateView(
+    @Inject
+    lateinit var repository: GameRepository
+
+    override fun initViewBinding(
         inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View {
-        binding = FragmentGameResultBinding.inflate(inflater, container, false)
-        return binding.root
+        container: ViewGroup?
+    ): FragmentGameResultBinding {
+        TODO("Not yet implemented")
+    }
+
+    override fun initPresenter(): GameResultPresenter = GameResultPresenter(repository, this)
+
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
     }
 }

@@ -1,4 +1,4 @@
-package com.samrraa.qurioapp.datasource.remote
+package com.samrraa.qurioapp.datasource.remote.api
 
 import com.samrraa.qurioapp.datasource.remote.dto.QuestionResponse
 import retrofit2.http.GET
