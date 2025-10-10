@@ -2133,13 +2133,13 @@
           "id": 43306572,
           "url": "https://github.com/mohannadahmed00"
         },
-        "submitted_at": "2025-10-10T15:08:32Z",
+        "submitted_at": "2025-10-10T15:12:33Z",
         "commit_id": "9c7986c82c361fa9ef13056f0c6a790a438e1ee2"
       }
     ],
     "required_approvals": 2,
-    "first_approved_at": "2025-10-10T15:08:32Z",
-    "time_to_first_approval_minutes": 1004.4666666666667,
+    "first_approved_at": "2025-10-10T15:12:33Z",
+    "time_to_first_approval_minutes": 1008.4833333333333,
     "required_approvals_met_at": null,
     "time_to_required_approvals_minutes": null,
     "closed_at": null,
