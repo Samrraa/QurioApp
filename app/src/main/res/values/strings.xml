@@ -76,4 +76,12 @@
     <string name="click_on_achievement_to_view_details">*Click on achievement to view details</string>
     <string name="achievement_name">Achievement Name</string>
     <string name="achievement_image">achievement image</string>
+    <string name="close">Close</string>
+    <string name="sound">Sound</string>
+    <string name="sound_setting">Sound</string>
+    <string name="music_setting">Music</string>
+    <string name="musics">Music</string>
+    <string name="save_changes">Save changes</string>
+    <string name="discard">Discard</string>
+    <string name="settings_dialog">Settings</string>
 </resources>
