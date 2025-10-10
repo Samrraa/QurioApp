@@ -2150,5 +2150,42 @@
       "deletions": 7,
       "changed_files": 4
     }
+  },
+  {
+    "pr_number": 66,
+    "url": "https://github.com/Samrraa/QurioApp/pull/66",
+    "title": "feat: Add settings dialog",
+    "opened_at": "2025-10-10T13:47:25Z",
+    "head_ref": "feat/settings_dialog",
+    "base_ref": "develop",
+    "creator": {
+      "login": "Mostafa-alsaygh",
+      "id": 106277855,
+      "url": "https://github.com/Mostafa-alsaygh"
+    },
+    "assignees": [
+      {
+        "login": "Mostafa-alsaygh",
+        "id": 106277855,
+        "url": "https://github.com/Mostafa-alsaygh"
+      }
+    ],
+    "comments": [],
+    "approvals": [],
+    "required_approvals": 2,
+    "first_approved_at": null,
+    "time_to_first_approval_minutes": null,
+    "required_approvals_met_at": null,
+    "time_to_required_approvals_minutes": null,
+    "closed_at": null,
+    "merged_at": null,
+    "merged_by": null,
+    "week": "2025-W41",
+    "status": "pending",
+    "diff_stats": {
+      "additions": 185,
+      "deletions": 1,
+      "changed_files": 5
+    }
   }
 ]
