@@ -92,4 +92,7 @@
     <string name="click_on_achievement_to_view_details">*Click on achievement to view details</string>
     <string name="achievement_name">Achievement Name</string>
     <string name="achievement_image">achievement image</string>
+    <string name="share">Share disappointment with friends</string>
+    <string name="play_again">play again</string>
+    <string name="back_to_home">Back to home</string>
 </resources>
