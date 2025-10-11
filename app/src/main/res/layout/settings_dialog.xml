@@ -110,10 +110,10 @@
         <View
             android:id="@+id/divider"
             android:layout_width="match_parent"
-            android:layout_height="1dp"
+            android:layout_height="3dp"
             android:layout_below="@id/layout_music"
             android:layout_marginTop="30dp"
-            android:background="@color/primary" />
+            android:background="@drawable/background_divider" />
 
         <LinearLayout
             android:id="@+id/layout_buttons"
