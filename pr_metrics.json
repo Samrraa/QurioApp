@@ -1959,7 +1959,18 @@
         "url": "https://github.com/BassantM"
       }
     ],
-    "comments": [],
+    "comments": [
+      {
+        "author": {
+          "login": "Hasa9nAli",
+          "id": 92353024,
+          "url": "https://github.com/Hasa9nAli"
+        },
+        "first_comment_at": "2025-10-11T04:34:37Z",
+        "last_comment_at": "2025-10-11T04:38:22Z",
+        "count": 3
+      }
+    ],
     "approvals": [],
     "required_approvals": 2,
     "first_approved_at": null,
