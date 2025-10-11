@@ -2078,10 +2078,20 @@
         "count": 4
       }
     ],
-    "approvals": [],
+    "approvals": [
+      {
+        "reviewer": {
+          "login": "Hasa9nAli",
+          "id": 92353024,
+          "url": "https://github.com/Hasa9nAli"
+        },
+        "submitted_at": "2025-10-11T04:33:03Z",
+        "commit_id": "148491d2a242a9ec053ab97b9d3bfb9afcd03e40"
+      }
+    ],
     "required_approvals": 2,
-    "first_approved_at": null,
-    "time_to_first_approval_minutes": null,
+    "first_approved_at": "2025-10-11T04:33:03Z",
+    "time_to_first_approval_minutes": 1891.0666666666666,
     "required_approvals_met_at": null,
     "time_to_required_approvals_minutes": null,
     "closed_at": null,
