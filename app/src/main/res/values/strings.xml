@@ -84,4 +84,7 @@
     <string name="save_changes">Save changes</string>
     <string name="discard">Discard</string>
     <string name="settings_dialog">Settings</string>
+    <string name="share">Share disappointment with friends</string>
+    <string name="play_again">play again</string>
+    <string name="back_to_home">Back to home</string>
 </resources>
