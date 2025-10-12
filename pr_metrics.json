@@ -259,18 +259,31 @@
         },
         "submitted_at": "2025-10-06T04:34:47Z",
         "commit_id": "07b45d0f1dc017419a540f361e629fc2c53120a5"
+      },
+      {
+        "reviewer": {
+          "login": "marwanqashwa",
+          "id": 100484790,
+          "url": "https://github.com/marwanqashwa"
+        },
+        "submitted_at": "2025-10-06T15:21:31Z",
+        "commit_id": "07b45d0f1dc017419a540f361e629fc2c53120a5"
       }
     ],
     "required_approvals": 2,
     "first_approved_at": "2025-10-06T04:34:47Z",
     "time_to_first_approval_minutes": 6659.933333333333,
-    "required_approvals_met_at": null,
-    "time_to_required_approvals_minutes": null,
-    "closed_at": null,
-    "merged_at": null,
-    "merged_by": null,
+    "required_approvals_met_at": "2025-10-06T15:21:31Z",
+    "time_to_required_approvals_minutes": 7306.666666666667,
+    "closed_at": "2025-10-06T15:22:04Z",
+    "merged_at": "2025-10-06T15:22:04Z",
+    "merged_by": {
+      "login": "BassantM",
+      "id": 102248144,
+      "url": "https://github.com/BassantM"
+    },
     "week": "2025-W40",
-    "status": "pending",
+    "status": "merged",
     "diff_stats": {
       "additions": 161,
       "deletions": 0,
@@ -625,7 +638,17 @@
         },
         "first_comment_at": "2025-10-04T03:31:15Z",
         "last_comment_at": "2025-10-04T04:06:17Z",
-        "count": 13
+        "count": 12
+      },
+      {
+        "author": {
+          "login": "Abdulrahman-Ragab-01",
+          "id": 76666355,
+          "url": "https://github.com/Abdulrahman-Ragab-01"
+        },
+        "first_comment_at": "2025-10-07T12:37:09Z",
+        "last_comment_at": "2025-10-07T12:37:09Z",
+        "count": 1
       },
       {
         "author": {
@@ -645,7 +668,7 @@
         },
         "first_comment_at": "2025-10-03T16:13:20Z",
         "last_comment_at": "2025-10-04T11:47:16Z",
-        "count": 15
+        "count": 14
       },
       {
         "author": {
@@ -658,21 +681,53 @@
         "count": 8
       }
     ],
-    "approvals": [],
+    "approvals": [
+      {
+        "reviewer": {
+          "login": "mohannadahmed00",
+          "id": 43306572,
+          "url": "https://github.com/mohannadahmed00"
+        },
+        "submitted_at": "2025-10-08T17:09:52Z",
+        "commit_id": "0d7088ee758aa3b7c38a0dbacf0be1988060aca5"
+      },
+      {
+        "reviewer": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "submitted_at": "2025-10-08T17:39:05Z",
+        "commit_id": "0d7088ee758aa3b7c38a0dbacf0be1988060aca5"
+      },
+      {
+        "reviewer": {
+          "login": "Abdulrahman-Ragab-01",
+          "id": 76666355,
+          "url": "https://github.com/Abdulrahman-Ragab-01"
+        },
+        "submitted_at": "2025-10-08T17:39:33Z",
+        "commit_id": "0d7088ee758aa3b7c38a0dbacf0be1988060aca5"
+      }
+    ],
     "required_approvals": 2,
-    "first_approved_at": null,
-    "time_to_first_approval_minutes": null,
-    "required_approvals_met_at": null,
-    "time_to_required_approvals_minutes": null,
-    "closed_at": null,
-    "merged_at": null,
-    "merged_by": null,
+    "first_approved_at": "2025-10-08T17:09:52Z",
+    "time_to_first_approval_minutes": 8698.316666666668,
+    "required_approvals_met_at": "2025-10-08T17:39:05Z",
+    "time_to_required_approvals_minutes": 8727.533333333333,
+    "closed_at": "2025-10-08T17:39:31Z",
+    "merged_at": "2025-10-08T17:39:31Z",
+    "merged_by": {
+      "login": "Pixelh97",
+      "id": 105714212,
+      "url": "https://github.com/Pixelh97"
+    },
     "week": "2025-W40",
-    "status": "pending",
+    "status": "merged",
     "diff_stats": {
       "additions": 592,
-      "deletions": 4,
-      "changed_files": 11
+      "deletions": 15,
+      "changed_files": 12
     }
   },
   {
@@ -1067,6 +1122,26 @@
       },
       {
         "author": {
+          "login": "skaik-mo",
+          "id": 54184084,
+          "url": "https://github.com/skaik-mo"
+        },
+        "first_comment_at": "2025-10-06T21:05:28Z",
+        "last_comment_at": "2025-10-06T21:05:28Z",
+        "count": 1
+      },
+      {
+        "author": {
+          "login": "Abdulrahman-Ragab-01",
+          "id": 76666355,
+          "url": "https://github.com/Abdulrahman-Ragab-01"
+        },
+        "first_comment_at": "2025-10-07T12:44:52Z",
+        "last_comment_at": "2025-10-07T13:03:14Z",
+        "count": 6
+      },
+      {
+        "author": {
           "login": "Hasa9nAli",
           "id": 92353024,
           "url": "https://github.com/Hasa9nAli"
@@ -1104,7 +1179,7 @@
           "url": "https://github.com/Mostafa-alsaygh"
         },
         "submitted_at": "2025-10-05T15:08:33Z",
-        "commit_id": "63455c8f8ec4d772ff4bc6ffc8da842c2dbb5a04"
+        "commit_id": "77e30ba966c3969a746cc532a6fe6b5f3049f1d9"
       },
       {
         "reviewer": {
@@ -1113,7 +1188,7 @@
           "url": "https://github.com/marwanqashwa"
         },
         "submitted_at": "2025-10-05T19:25:35Z",
-        "commit_id": "63455c8f8ec4d772ff4bc6ffc8da842c2dbb5a04"
+        "commit_id": "77e30ba966c3969a746cc532a6fe6b5f3049f1d9"
       }
     ],
     "required_approvals": 2,
@@ -1154,6 +1229,16 @@
     "comments": [
       {
         "author": {
+          "login": "mohannadahmed00",
+          "id": 43306572,
+          "url": "https://github.com/mohannadahmed00"
+        },
+        "first_comment_at": "2025-10-07T05:28:31Z",
+        "last_comment_at": "2025-10-07T05:35:19Z",
+        "count": 4
+      },
+      {
+        "author": {
           "login": "Mostafa-khaled21",
           "id": 122157725,
           "url": "https://github.com/Mostafa-khaled21"
@@ -1169,44 +1254,48 @@
           "url": "https://github.com/fatmahgazy"
         },
         "first_comment_at": "2025-10-05T16:10:32Z",
-        "last_comment_at": "2025-10-05T17:45:28Z",
-        "count": 2
+        "last_comment_at": "2025-10-07T09:24:05Z",
+        "count": 6
       }
     ],
     "approvals": [
       {
         "reviewer": {
-          "login": "Mostafa-khaled21",
-          "id": 122157725,
-          "url": "https://github.com/Mostafa-khaled21"
+          "login": "mohannadahmed00",
+          "id": 43306572,
+          "url": "https://github.com/mohannadahmed00"
         },
-        "submitted_at": "2025-10-05T17:55:32Z",
-        "commit_id": "85ba8faf95d3c753ede8e046b1faa5a857bb8753"
+        "submitted_at": "2025-10-07T11:44:57Z",
+        "commit_id": "4967cb03ee0d64f47908762060bd10c79031445f"
       },
       {
         "reviewer": {
-          "login": "marwanqashwa",
-          "id": 100484790,
-          "url": "https://github.com/marwanqashwa"
+          "login": "Hasa9nAli",
+          "id": 92353024,
+          "url": "https://github.com/Hasa9nAli"
         },
-        "submitted_at": "2025-10-05T19:23:54Z",
-        "commit_id": "85ba8faf95d3c753ede8e046b1faa5a857bb8753"
+        "submitted_at": "2025-10-07T11:58:46Z",
+        "commit_id": "4967cb03ee0d64f47908762060bd10c79031445f"
       }
     ],
     "required_approvals": 2,
-    "first_approved_at": "2025-10-05T17:55:32Z",
-    "time_to_first_approval_minutes": 125.6,
-    "required_approvals_met_at": "2025-10-05T19:23:54Z",
-    "time_to_required_approvals_minutes": 213.96666666666667,
-    "closed_at": null,
-    "merged_at": null,
-    "merged_by": null,
+    "first_approved_at": "2025-10-07T11:44:57Z",
+    "time_to_first_approval_minutes": 2635.016666666667,
+    "required_approvals_met_at": "2025-10-07T11:58:46Z",
+    "time_to_required_approvals_minutes": 2648.8333333333335,
+    "closed_at": "2025-10-07T11:59:44Z",
+    "merged_at": "2025-10-07T11:59:44Z",
+    "merged_by": {
+      "login": "fatmahgazy",
+      "id": 143911324,
+      "url": "https://github.com/fatmahgazy"
+    },
     "week": "2025-W40",
-    "status": "approved",
+    "status": "merged",
     "diff_stats": {
-      "additions": 167,
-      "deletions": 23,
-      "changed_files": 44
+      "additions": 391,
+      "deletions": 122,
+      "changed_files": 50
     }
   },
   {
@@ -1228,7 +1317,660 @@
         "url": "https://github.com/skaik-mo"
       }
     ],
+    "comments": [
+      {
+        "author": {
+          "login": "skaik-mo",
+          "id": 54184084,
+          "url": "https://github.com/skaik-mo"
+        },
+        "first_comment_at": "2025-10-06T20:53:53Z",
+        "last_comment_at": "2025-10-07T15:07:47Z",
+        "count": 3
+      },
+      {
+        "author": {
+          "login": "Abdulrahman-Ragab-01",
+          "id": 76666355,
+          "url": "https://github.com/Abdulrahman-Ragab-01"
+        },
+        "first_comment_at": "2025-10-07T13:10:54Z",
+        "last_comment_at": "2025-10-07T13:10:54Z",
+        "count": 1
+      },
+      {
+        "author": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "first_comment_at": "2025-10-06T19:59:05Z",
+        "last_comment_at": "2025-10-06T19:59:27Z",
+        "count": 2
+      }
+    ],
+    "approvals": [
+      {
+        "reviewer": {
+          "login": "marwanqashwa",
+          "id": 100484790,
+          "url": "https://github.com/marwanqashwa"
+        },
+        "submitted_at": "2025-10-07T15:15:27Z",
+        "commit_id": "f4f8c8d873170724dc0028cb8b0cc9d6fb62d5e1"
+      },
+      {
+        "reviewer": {
+          "login": "mohannadahmed00",
+          "id": 43306572,
+          "url": "https://github.com/mohannadahmed00"
+        },
+        "submitted_at": "2025-10-07T16:44:43Z",
+        "commit_id": "f4f8c8d873170724dc0028cb8b0cc9d6fb62d5e1"
+      },
+      {
+        "reviewer": {
+          "login": "Abdulrahman-Ragab-01",
+          "id": 76666355,
+          "url": "https://github.com/Abdulrahman-Ragab-01"
+        },
+        "submitted_at": "2025-10-07T16:51:05Z",
+        "commit_id": "f4f8c8d873170724dc0028cb8b0cc9d6fb62d5e1"
+      }
+    ],
+    "required_approvals": 2,
+    "first_approved_at": "2025-10-07T15:15:27Z",
+    "time_to_first_approval_minutes": 2456.383333333333,
+    "required_approvals_met_at": "2025-10-07T16:44:43Z",
+    "time_to_required_approvals_minutes": 2545.65,
+    "closed_at": "2025-10-07T17:02:31Z",
+    "merged_at": "2025-10-07T17:02:31Z",
+    "merged_by": {
+      "login": "skaik-mo",
+      "id": 54184084,
+      "url": "https://github.com/skaik-mo"
+    },
+    "week": "2025-W40",
+    "status": "merged",
+    "diff_stats": {
+      "additions": 209,
+      "deletions": 0,
+      "changed_files": 10
+    }
+  },
+  {
+    "pr_number": 55,
+    "url": "https://github.com/Samrraa/QurioApp/pull/55",
+    "title": "feat: Add character model and preferences datastore",
+    "opened_at": "2025-10-07T08:55:44Z",
+    "head_ref": "feature/53-implement-datastore-preferences",
+    "base_ref": "develop",
+    "creator": {
+      "login": "mohannadahmed00",
+      "id": 43306572,
+      "url": "https://github.com/mohannadahmed00"
+    },
+    "assignees": [
+      {
+        "login": "mohannadahmed00",
+        "id": 43306572,
+        "url": "https://github.com/mohannadahmed00"
+      }
+    ],
     "comments": [],
+    "approvals": [
+      {
+        "reviewer": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "submitted_at": "2025-10-07T10:36:14Z",
+        "commit_id": "ec4f846726b8ef578b69528e2a216a4beed7df63"
+      },
+      {
+        "reviewer": {
+          "login": "Mostafa-khaled21",
+          "id": 122157725,
+          "url": "https://github.com/Mostafa-khaled21"
+        },
+        "submitted_at": "2025-10-07T11:13:04Z",
+        "commit_id": "ec4f846726b8ef578b69528e2a216a4beed7df63"
+      }
+    ],
+    "required_approvals": 2,
+    "first_approved_at": "2025-10-07T10:36:14Z",
+    "time_to_first_approval_minutes": 100.5,
+    "required_approvals_met_at": "2025-10-07T11:13:04Z",
+    "time_to_required_approvals_minutes": 137.33333333333334,
+    "closed_at": "2025-10-07T11:23:08Z",
+    "merged_at": "2025-10-07T11:23:08Z",
+    "merged_by": {
+      "login": "mohannadahmed00",
+      "id": 43306572,
+      "url": "https://github.com/mohannadahmed00"
+    },
+    "week": "2025-W41",
+    "status": "merged",
+    "diff_stats": {
+      "additions": 119,
+      "deletions": 0,
+      "changed_files": 4
+    }
+  },
+  {
+    "pr_number": 57,
+    "url": "https://github.com/Samrraa/QurioApp/pull/57",
+    "title": "Feature/item statstics",
+    "opened_at": "2025-10-07T11:06:25Z",
+    "head_ref": "feature/item_statstics",
+    "base_ref": "develop",
+    "creator": {
+      "login": "Mostafa-khaled21",
+      "id": 122157725,
+      "url": "https://github.com/Mostafa-khaled21"
+    },
+    "assignees": [
+      {
+        "login": "Mostafa-khaled21",
+        "id": 122157725,
+        "url": "https://github.com/Mostafa-khaled21"
+      }
+    ],
+    "comments": [
+      {
+        "author": {
+          "login": "skaik-mo",
+          "id": 54184084,
+          "url": "https://github.com/skaik-mo"
+        },
+        "first_comment_at": "2025-10-07T13:20:01Z",
+        "last_comment_at": "2025-10-07T13:48:04Z",
+        "count": 3
+      },
+      {
+        "author": {
+          "login": "Abdulrahman-Ragab-01",
+          "id": 76666355,
+          "url": "https://github.com/Abdulrahman-Ragab-01"
+        },
+        "first_comment_at": "2025-10-07T13:23:36Z",
+        "last_comment_at": "2025-10-07T13:50:36Z",
+        "count": 7
+      },
+      {
+        "author": {
+          "login": "Mostafa-khaled21",
+          "id": 122157725,
+          "url": "https://github.com/Mostafa-khaled21"
+        },
+        "first_comment_at": "2025-10-07T11:47:34Z",
+        "last_comment_at": "2025-10-08T12:07:11Z",
+        "count": 10
+      },
+      {
+        "author": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "first_comment_at": "2025-10-07T11:30:25Z",
+        "last_comment_at": "2025-10-07T19:32:29Z",
+        "count": 6
+      }
+    ],
+    "approvals": [
+      {
+        "reviewer": {
+          "login": "Abdulrahman-Ragab-01",
+          "id": 76666355,
+          "url": "https://github.com/Abdulrahman-Ragab-01"
+        },
+        "submitted_at": "2025-10-08T17:51:16Z",
+        "commit_id": "cc9b3e6332c6d35d6c92ab1f46fb8944a3289946"
+      },
+      {
+        "reviewer": {
+          "login": "BassantM",
+          "id": 102248144,
+          "url": "https://github.com/BassantM"
+        },
+        "submitted_at": "2025-10-08T17:51:30Z",
+        "commit_id": "cc9b3e6332c6d35d6c92ab1f46fb8944a3289946"
+      },
+      {
+        "reviewer": {
+          "login": "skaik-mo",
+          "id": 54184084,
+          "url": "https://github.com/skaik-mo"
+        },
+        "submitted_at": "2025-10-08T17:51:43Z",
+        "commit_id": "cc9b3e6332c6d35d6c92ab1f46fb8944a3289946"
+      },
+      {
+        "reviewer": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "submitted_at": "2025-10-08T17:51:58Z",
+        "commit_id": "cc9b3e6332c6d35d6c92ab1f46fb8944a3289946"
+      }
+    ],
+    "required_approvals": 2,
+    "first_approved_at": "2025-10-08T17:51:16Z",
+    "time_to_first_approval_minutes": 1844.85,
+    "required_approvals_met_at": "2025-10-08T17:51:30Z",
+    "time_to_required_approvals_minutes": 1845.0833333333333,
+    "closed_at": "2025-10-08T17:52:09Z",
+    "merged_at": "2025-10-08T17:52:09Z",
+    "merged_by": {
+      "login": "Mostafa-khaled21",
+      "id": 122157725,
+      "url": "https://github.com/Mostafa-khaled21"
+    },
+    "week": "2025-W41",
+    "status": "merged",
+    "diff_stats": {
+      "additions": 823,
+      "deletions": 62,
+      "changed_files": 20
+    }
+  },
+  {
+    "pr_number": 58,
+    "url": "https://github.com/Samrraa/QurioApp/pull/58",
+    "title": "feat: Integrate Retrofit for trivia API",
+    "opened_at": "2025-10-07T14:13:06Z",
+    "head_ref": "feature/22-define-api-models-service",
+    "base_ref": "develop",
+    "creator": {
+      "login": "fatmahgazy",
+      "id": 143911324,
+      "url": "https://github.com/fatmahgazy"
+    },
+    "assignees": [
+      {
+        "login": "fatmahgazy",
+        "id": 143911324,
+        "url": "https://github.com/fatmahgazy"
+      }
+    ],
+    "comments": [
+      {
+        "author": {
+          "login": "mohannadahmed00",
+          "id": 43306572,
+          "url": "https://github.com/mohannadahmed00"
+        },
+        "first_comment_at": "2025-10-07T16:05:27Z",
+        "last_comment_at": "2025-10-07T16:05:43Z",
+        "count": 2
+      },
+      {
+        "author": {
+          "login": "skaik-mo",
+          "id": 54184084,
+          "url": "https://github.com/skaik-mo"
+        },
+        "first_comment_at": "2025-10-07T14:56:18Z",
+        "last_comment_at": "2025-10-07T15:13:52Z",
+        "count": 2
+      },
+      {
+        "author": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "first_comment_at": "2025-10-07T15:03:38Z",
+        "last_comment_at": "2025-10-07T15:19:46Z",
+        "count": 2
+      }
+    ],
+    "approvals": [
+      {
+        "reviewer": {
+          "login": "marwanqashwa",
+          "id": 100484790,
+          "url": "https://github.com/marwanqashwa"
+        },
+        "submitted_at": "2025-10-07T16:41:58Z",
+        "commit_id": "aa51271eff6a7dc6e95e696e43e58608789e09c3"
+      },
+      {
+        "reviewer": {
+          "login": "mohannadahmed00",
+          "id": 43306572,
+          "url": "https://github.com/mohannadahmed00"
+        },
+        "submitted_at": "2025-10-07T16:45:55Z",
+        "commit_id": "aa51271eff6a7dc6e95e696e43e58608789e09c3"
+      },
+      {
+        "reviewer": {
+          "login": "Abdulrahman-Ragab-01",
+          "id": 76666355,
+          "url": "https://github.com/Abdulrahman-Ragab-01"
+        },
+        "submitted_at": "2025-10-07T16:51:52Z",
+        "commit_id": "aa51271eff6a7dc6e95e696e43e58608789e09c3"
+      }
+    ],
+    "required_approvals": 2,
+    "first_approved_at": "2025-10-07T16:41:58Z",
+    "time_to_first_approval_minutes": 148.86666666666667,
+    "required_approvals_met_at": "2025-10-07T16:45:55Z",
+    "time_to_required_approvals_minutes": 152.81666666666666,
+    "closed_at": "2025-10-07T16:52:29Z",
+    "merged_at": "2025-10-07T16:52:29Z",
+    "merged_by": {
+      "login": "fatmahgazy",
+      "id": 143911324,
+      "url": "https://github.com/fatmahgazy"
+    },
+    "week": "2025-W41",
+    "status": "merged",
+    "diff_stats": {
+      "additions": 98,
+      "deletions": 0,
+      "changed_files": 12
+    }
+  },
+  {
+    "pr_number": 59,
+    "url": "https://github.com/Samrraa/QurioApp/pull/59",
+    "title": "feat: Add Room database for game results",
+    "opened_at": "2025-10-07T14:53:24Z",
+    "head_ref": "feature/54-implement-room-database-for-game-history",
+    "base_ref": "develop",
+    "creator": {
+      "login": "mohannadahmed00",
+      "id": 43306572,
+      "url": "https://github.com/mohannadahmed00"
+    },
+    "assignees": [
+      {
+        "login": "mohannadahmed00",
+        "id": 43306572,
+        "url": "https://github.com/mohannadahmed00"
+      }
+    ],
+    "comments": [
+      {
+        "author": {
+          "login": "mohannadahmed00",
+          "id": 43306572,
+          "url": "https://github.com/mohannadahmed00"
+        },
+        "first_comment_at": "2025-10-07T15:35:51Z",
+        "last_comment_at": "2025-10-07T16:11:29Z",
+        "count": 3
+      },
+      {
+        "author": {
+          "login": "marwanqashwa",
+          "id": 100484790,
+          "url": "https://github.com/marwanqashwa"
+        },
+        "first_comment_at": "2025-10-07T15:17:11Z",
+        "last_comment_at": "2025-10-07T16:41:04Z",
+        "count": 2
+      },
+      {
+        "author": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "first_comment_at": "2025-10-07T15:14:37Z",
+        "last_comment_at": "2025-10-07T16:17:44Z",
+        "count": 3
+      }
+    ],
+    "approvals": [
+      {
+        "reviewer": {
+          "login": "marwanqashwa",
+          "id": 100484790,
+          "url": "https://github.com/marwanqashwa"
+        },
+        "submitted_at": "2025-10-07T16:57:35Z",
+        "commit_id": "9b2b2d6efbe2e93cca4b1f8a8c2eb0f0e0b1a583"
+      },
+      {
+        "reviewer": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "submitted_at": "2025-10-07T16:59:47Z",
+        "commit_id": "9b2b2d6efbe2e93cca4b1f8a8c2eb0f0e0b1a583"
+      }
+    ],
+    "required_approvals": 2,
+    "first_approved_at": "2025-10-07T16:57:35Z",
+    "time_to_first_approval_minutes": 124.18333333333334,
+    "required_approvals_met_at": "2025-10-07T16:59:47Z",
+    "time_to_required_approvals_minutes": 126.38333333333334,
+    "closed_at": "2025-10-07T17:00:22Z",
+    "merged_at": "2025-10-07T17:00:22Z",
+    "merged_by": {
+      "login": "mohannadahmed00",
+      "id": 43306572,
+      "url": "https://github.com/mohannadahmed00"
+    },
+    "week": "2025-W41",
+    "status": "merged",
+    "diff_stats": {
+      "additions": 154,
+      "deletions": 20,
+      "changed_files": 14
+    }
+  },
+  {
+    "pr_number": 60,
+    "url": "https://github.com/Samrraa/QurioApp/pull/60",
+    "title": "feat: add buy life dialog with assets",
+    "opened_at": "2025-10-07T18:21:20Z",
+    "head_ref": "feature/buy-life-dialog",
+    "base_ref": "develop",
+    "creator": {
+      "login": "Abdulrahman-Ragab-01",
+      "id": 76666355,
+      "url": "https://github.com/Abdulrahman-Ragab-01"
+    },
+    "assignees": [
+      {
+        "login": "Abdulrahman-Ragab-01",
+        "id": 76666355,
+        "url": "https://github.com/Abdulrahman-Ragab-01"
+      }
+    ],
+    "comments": [
+      {
+        "author": {
+          "login": "mohannadahmed00",
+          "id": 43306572,
+          "url": "https://github.com/mohannadahmed00"
+        },
+        "first_comment_at": "2025-10-08T05:35:33Z",
+        "last_comment_at": "2025-10-08T05:42:02Z",
+        "count": 7
+      },
+      {
+        "author": {
+          "login": "Abdulrahman-Ragab-01",
+          "id": 76666355,
+          "url": "https://github.com/Abdulrahman-Ragab-01"
+        },
+        "first_comment_at": "2025-10-07T23:01:58Z",
+        "last_comment_at": "2025-10-08T12:05:41Z",
+        "count": 9
+      },
+      {
+        "author": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "first_comment_at": "2025-10-07T19:28:28Z",
+        "last_comment_at": "2025-10-07T19:49:25Z",
+        "count": 3
+      }
+    ],
+    "approvals": [
+      {
+        "reviewer": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "submitted_at": "2025-10-08T12:10:57Z",
+        "commit_id": "5e34e3737e5051c748a87517ece2f8829363094d"
+      },
+      {
+        "reviewer": {
+          "login": "mohannadahmed00",
+          "id": 43306572,
+          "url": "https://github.com/mohannadahmed00"
+        },
+        "submitted_at": "2025-10-08T12:23:12Z",
+        "commit_id": "5e34e3737e5051c748a87517ece2f8829363094d"
+      }
+    ],
+    "required_approvals": 2,
+    "first_approved_at": "2025-10-08T12:10:57Z",
+    "time_to_first_approval_minutes": 1069.6166666666666,
+    "required_approvals_met_at": "2025-10-08T12:23:12Z",
+    "time_to_required_approvals_minutes": 1081.8666666666666,
+    "closed_at": "2025-10-08T12:23:33Z",
+    "merged_at": "2025-10-08T12:23:33Z",
+    "merged_by": {
+      "login": "Abdulrahman-Ragab-01",
+      "id": 76666355,
+      "url": "https://github.com/Abdulrahman-Ragab-01"
+    },
+    "week": "2025-W41",
+    "status": "merged",
+    "diff_stats": {
+      "additions": 211,
+      "deletions": 1,
+      "changed_files": 14
+    }
+  },
+  {
+    "pr_number": 61,
+    "url": "https://github.com/Samrraa/QurioApp/pull/61",
+    "title": "Feature/characters dialog",
+    "opened_at": "2025-10-07T22:18:34Z",
+    "head_ref": "feature/characters-dialog",
+    "base_ref": "develop",
+    "creator": {
+      "login": "Abdulrahman-Ragab-01",
+      "id": 76666355,
+      "url": "https://github.com/Abdulrahman-Ragab-01"
+    },
+    "assignees": [
+      {
+        "login": "Abdulrahman-Ragab-01",
+        "id": 76666355,
+        "url": "https://github.com/Abdulrahman-Ragab-01"
+      }
+    ],
+    "comments": [
+      {
+        "author": {
+          "login": "mohannadahmed00",
+          "id": 43306572,
+          "url": "https://github.com/mohannadahmed00"
+        },
+        "first_comment_at": "2025-10-08T05:01:07Z",
+        "last_comment_at": "2025-10-08T05:31:53Z",
+        "count": 17
+      },
+      {
+        "author": {
+          "login": "Abdulrahman-Ragab-01",
+          "id": 76666355,
+          "url": "https://github.com/Abdulrahman-Ragab-01"
+        },
+        "first_comment_at": "2025-10-08T09:17:28Z",
+        "last_comment_at": "2025-10-08T21:48:16Z",
+        "count": 17
+      }
+    ],
+    "approvals": [
+      {
+        "reviewer": {
+          "login": "mohannadahmed00",
+          "id": 43306572,
+          "url": "https://github.com/mohannadahmed00"
+        },
+        "submitted_at": "2025-10-08T21:55:03Z",
+        "commit_id": "a80e615fce48c3014d4d53787a437f25da2369d6"
+      },
+      {
+        "reviewer": {
+          "login": "skaik-mo",
+          "id": 54184084,
+          "url": "https://github.com/skaik-mo"
+        },
+        "submitted_at": "2025-10-08T21:56:03Z",
+        "commit_id": "a80e615fce48c3014d4d53787a437f25da2369d6"
+      }
+    ],
+    "required_approvals": 2,
+    "first_approved_at": "2025-10-08T21:55:03Z",
+    "time_to_first_approval_minutes": 1416.4833333333333,
+    "required_approvals_met_at": "2025-10-08T21:56:03Z",
+    "time_to_required_approvals_minutes": 1417.4833333333333,
+    "closed_at": "2025-10-08T21:56:16Z",
+    "merged_at": "2025-10-08T21:56:16Z",
+    "merged_by": {
+      "login": "Abdulrahman-Ragab-01",
+      "id": 76666355,
+      "url": "https://github.com/Abdulrahman-Ragab-01"
+    },
+    "week": "2025-W41",
+    "status": "merged",
+    "diff_stats": {
+      "additions": 665,
+      "deletions": 3,
+      "changed_files": 13
+    }
+  },
+  {
+    "pr_number": 62,
+    "url": "https://github.com/Samrraa/QurioApp/pull/62",
+    "title": "feature/on-boarding-screen",
+    "opened_at": "2025-10-08T21:36:28Z",
+    "head_ref": "feature/on-boarding-screen",
+    "base_ref": "develop",
+    "creator": {
+      "login": "BassantM",
+      "id": 102248144,
+      "url": "https://github.com/BassantM"
+    },
+    "assignees": [
+      {
+        "login": "BassantM",
+        "id": 102248144,
+        "url": "https://github.com/BassantM"
+      }
+    ],
+    "comments": [
+      {
+        "author": {
+          "login": "Hasa9nAli",
+          "id": 92353024,
+          "url": "https://github.com/Hasa9nAli"
+        },
+        "first_comment_at": "2025-10-11T04:34:37Z",
+        "last_comment_at": "2025-10-11T04:38:22Z",
+        "count": 3
+      }
+    ],
     "approvals": [],
     "required_approvals": 2,
     "first_approved_at": null,
@@ -1238,12 +1980,297 @@
     "closed_at": null,
     "merged_at": null,
     "merged_by": null,
-    "week": "2025-W40",
+    "week": "2025-W41",
     "status": "pending",
     "diff_stats": {
-      "additions": 191,
-      "deletions": 1,
-      "changed_files": 15
+      "additions": 523,
+      "deletions": 14,
+      "changed_files": 32
+    }
+  },
+  {
+    "pr_number": 63,
+    "url": "https://github.com/Samrraa/QurioApp/pull/63",
+    "title": "feat:Add achievement list and detail dialogs",
+    "opened_at": "2025-10-09T16:19:33Z",
+    "head_ref": "feature/achievements-dialog",
+    "base_ref": "develop",
+    "creator": {
+      "login": "marwanqashwa",
+      "id": 100484790,
+      "url": "https://github.com/marwanqashwa"
+    },
+    "assignees": [
+      {
+        "login": "marwanqashwa",
+        "id": 100484790,
+        "url": "https://github.com/marwanqashwa"
+      }
+    ],
+    "comments": [],
+    "approvals": [
+      {
+        "reviewer": {
+          "login": "Abdulrahman-Ragab-01",
+          "id": 76666355,
+          "url": "https://github.com/Abdulrahman-Ragab-01"
+        },
+        "submitted_at": "2025-10-09T16:45:42Z",
+        "commit_id": "ebf36fc3a3a784e97650233388e4ccb05732c328"
+      },
+      {
+        "reviewer": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "submitted_at": "2025-10-09T16:51:20Z",
+        "commit_id": "ebf36fc3a3a784e97650233388e4ccb05732c328"
+      }
+    ],
+    "required_approvals": 2,
+    "first_approved_at": "2025-10-09T16:45:42Z",
+    "time_to_first_approval_minutes": 26.15,
+    "required_approvals_met_at": "2025-10-09T16:51:20Z",
+    "time_to_required_approvals_minutes": 31.783333333333335,
+    "closed_at": "2025-10-09T16:52:34Z",
+    "merged_at": "2025-10-09T16:52:33Z",
+    "merged_by": {
+      "login": "marwanqashwa",
+      "id": 100484790,
+      "url": "https://github.com/marwanqashwa"
+    },
+    "week": "2025-W41",
+    "status": "merged",
+    "diff_stats": {
+      "additions": 499,
+      "deletions": 0,
+      "changed_files": 9
+    }
+  },
+  {
+    "pr_number": 64,
+    "url": "https://github.com/Samrraa/QurioApp/pull/64",
+    "title": "refactor: implement Dagger for dependency injection",
+    "opened_at": "2025-10-09T21:01:59Z",
+    "head_ref": "feature/10-setup-dagger-appcomponent",
+    "base_ref": "develop",
+    "creator": {
+      "login": "fatmahgazy",
+      "id": 143911324,
+      "url": "https://github.com/fatmahgazy"
+    },
+    "assignees": [
+      {
+        "login": "fatmahgazy",
+        "id": 143911324,
+        "url": "https://github.com/fatmahgazy"
+      }
+    ],
+    "comments": [
+      {
+        "author": {
+          "login": "Hasa9nAli",
+          "id": 92353024,
+          "url": "https://github.com/Hasa9nAli"
+        },
+        "first_comment_at": "2025-10-09T21:09:00Z",
+        "last_comment_at": "2025-10-11T04:32:20Z",
+        "count": 5
+      },
+      {
+        "author": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "first_comment_at": "2025-10-09T21:29:38Z",
+        "last_comment_at": "2025-10-09T21:40:50Z",
+        "count": 4
+      }
+    ],
+    "approvals": [
+      {
+        "reviewer": {
+          "login": "Hasa9nAli",
+          "id": 92353024,
+          "url": "https://github.com/Hasa9nAli"
+        },
+        "submitted_at": "2025-10-11T04:33:03Z",
+        "commit_id": "148491d2a242a9ec053ab97b9d3bfb9afcd03e40"
+      },
+      {
+        "reviewer": {
+          "login": "marwanqashwa",
+          "id": 100484790,
+          "url": "https://github.com/marwanqashwa"
+        },
+        "submitted_at": "2025-10-12T14:24:00Z",
+        "commit_id": "148491d2a242a9ec053ab97b9d3bfb9afcd03e40"
+      },
+      {
+        "reviewer": {
+          "login": "Abdulrahman-Ragab-01",
+          "id": 76666355,
+          "url": "https://github.com/Abdulrahman-Ragab-01"
+        },
+        "submitted_at": "2025-10-12T14:54:51Z",
+        "commit_id": "148491d2a242a9ec053ab97b9d3bfb9afcd03e40"
+      }
+    ],
+    "required_approvals": 2,
+    "first_approved_at": "2025-10-11T04:33:03Z",
+    "time_to_first_approval_minutes": 1891.0666666666666,
+    "required_approvals_met_at": "2025-10-12T14:24:00Z",
+    "time_to_required_approvals_minutes": 3922.016666666667,
+    "closed_at": null,
+    "merged_at": null,
+    "merged_by": null,
+    "week": "2025-W41",
+    "status": "approved",
+    "diff_stats": {
+      "additions": 374,
+      "deletions": 182,
+      "changed_files": 59
+    }
+  },
+  {
+    "pr_number": 65,
+    "url": "https://github.com/Samrraa/QurioApp/pull/65",
+    "title": "feat: Add game result screen",
+    "opened_at": "2025-10-09T22:24:04Z",
+    "head_ref": "feature/16-implement-result-screen",
+    "base_ref": "develop",
+    "creator": {
+      "login": "fatmahgazy",
+      "id": 143911324,
+      "url": "https://github.com/fatmahgazy"
+    },
+    "assignees": [
+      {
+        "login": "fatmahgazy",
+        "id": 143911324,
+        "url": "https://github.com/fatmahgazy"
+      }
+    ],
+    "comments": [
+      {
+        "author": {
+          "login": "mohannadahmed00",
+          "id": 43306572,
+          "url": "https://github.com/mohannadahmed00"
+        },
+        "first_comment_at": "2025-10-10T13:54:02Z",
+        "last_comment_at": "2025-10-10T14:00:08Z",
+        "count": 4
+      }
+    ],
+    "approvals": [
+      {
+        "reviewer": {
+          "login": "mohannadahmed00",
+          "id": 43306572,
+          "url": "https://github.com/mohannadahmed00"
+        },
+        "submitted_at": "2025-10-10T15:12:33Z",
+        "commit_id": "9c7986c82c361fa9ef13056f0c6a790a438e1ee2"
+      },
+      {
+        "reviewer": {
+          "login": "Abdulrahman-Ragab-01",
+          "id": 76666355,
+          "url": "https://github.com/Abdulrahman-Ragab-01"
+        },
+        "submitted_at": "2025-10-10T15:23:43Z",
+        "commit_id": "9c7986c82c361fa9ef13056f0c6a790a438e1ee2"
+      }
+    ],
+    "required_approvals": 2,
+    "first_approved_at": "2025-10-10T15:12:33Z",
+    "time_to_first_approval_minutes": 1008.4833333333333,
+    "required_approvals_met_at": "2025-10-10T15:23:43Z",
+    "time_to_required_approvals_minutes": 1019.65,
+    "closed_at": "2025-10-10T15:29:05Z",
+    "merged_at": "2025-10-10T15:29:05Z",
+    "merged_by": {
+      "login": "fatmahgazy",
+      "id": 143911324,
+      "url": "https://github.com/fatmahgazy"
+    },
+    "week": "2025-W41",
+    "status": "merged",
+    "diff_stats": {
+      "additions": 131,
+      "deletions": 7,
+      "changed_files": 4
+    }
+  },
+  {
+    "pr_number": 66,
+    "url": "https://github.com/Samrraa/QurioApp/pull/66",
+    "title": "feat: Add settings dialog",
+    "opened_at": "2025-10-10T13:47:25Z",
+    "head_ref": "feat/settings_dialog",
+    "base_ref": "develop",
+    "creator": {
+      "login": "Mostafa-alsaygh",
+      "id": 106277855,
+      "url": "https://github.com/Mostafa-alsaygh"
+    },
+    "assignees": [
+      {
+        "login": "Mostafa-alsaygh",
+        "id": 106277855,
+        "url": "https://github.com/Mostafa-alsaygh"
+      }
+    ],
+    "comments": [
+      {
+        "author": {
+          "login": "Abdulrahman-Ragab-01",
+          "id": 76666355,
+          "url": "https://github.com/Abdulrahman-Ragab-01"
+        },
+        "first_comment_at": "2025-10-11T15:42:55Z",
+        "last_comment_at": "2025-10-11T16:02:44Z",
+        "count": 16
+      },
+      {
+        "author": {
+          "login": "Mostafa-alsaygh",
+          "id": 106277855,
+          "url": "https://github.com/Mostafa-alsaygh"
+        },
+        "first_comment_at": "2025-10-10T16:02:33Z",
+        "last_comment_at": "2025-10-10T16:02:33Z",
+        "count": 1
+      },
+      {
+        "author": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "first_comment_at": "2025-10-10T15:59:52Z",
+        "last_comment_at": "2025-10-10T16:01:07Z",
+        "count": 2
+      }
+    ],
+    "approvals": [],
+    "required_approvals": 2,
+    "first_approved_at": null,
+    "time_to_first_approval_minutes": null,
+    "required_approvals_met_at": null,
+    "time_to_required_approvals_minutes": null,
+    "closed_at": null,
+    "merged_at": null,
+    "merged_by": null,
+    "week": "2025-W41",
+    "status": "pending",
+    "diff_stats": {
+      "additions": 316,
+      "deletions": 0,
+      "changed_files": 12
     }
   }
 ]
