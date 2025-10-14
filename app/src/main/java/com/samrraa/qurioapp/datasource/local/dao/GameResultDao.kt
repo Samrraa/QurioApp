@@ -1,4 +1,4 @@
-package com.samrraa.qurioapp.database
+package com.samrraa.qurioapp.datasource.local.dao
 
 import androidx.room.Dao
 import androidx.room.Insert
@@ -8,7 +8,7 @@ import com.samrraa.qurioapp.model.GameResult
 
 @Dao
 interface GameResultDao {
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    @Insert(onConflict = OnConflictStrategy.Companion.REPLACE)
     suspend fun insertGameResult(gameResult: GameResult)
 
     @Query("SELECT * FROM GAME_RESULTS ORDER BY date DESC")

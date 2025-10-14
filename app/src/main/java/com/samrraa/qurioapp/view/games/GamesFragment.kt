@@ -8,21 +8,22 @@ import androidx.recyclerview.widget.GridLayoutManager
 import com.samrraa.qurioapp.base.BaseFragment
 import com.samrraa.qurioapp.databinding.FragmentGamesBinding
 import com.samrraa.qurioapp.presenter.GamePresenter
+import com.samrraa.qurioapp.repository.GameRepository
 import com.samrraa.qurioapp.view.games.model.GameCategoryUi
-import com.samrraa.qurioapp.view.games.model.repository.GameRepositoryImpl
-import com.samrraa.qurioapp.view.games.model.repository.IGameRepository
+import javax.inject.Inject
 
 class GamesFragment : BaseFragment<FragmentGamesBinding, IGameView, GamePresenter>(), IGameView {
+
+    @Inject
+    lateinit var repository: GameRepository
 
     override fun initViewBinding(
         inflater: LayoutInflater,
         container: ViewGroup?
     ) = FragmentGamesBinding.inflate(inflater, container, false)
 
-    override fun initPresenter(): GamePresenter {
-        val repository: IGameRepository = GameRepositoryImpl()
-        return GamePresenter(repository, this)
-    }
+    override fun initPresenter(): GamePresenter = GamePresenter(repository, this)
+
 
 
     override fun onGetGamesCategoriesSuccess(games: List<GameCategoryUi>) {

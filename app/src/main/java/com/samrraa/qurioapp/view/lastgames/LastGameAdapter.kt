@@ -16,11 +16,11 @@ class LastGameAdapter(
     inner class LastGameCardViewHolder(private val binding: LastGameBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind(history: History) {
-            binding.tvDate.text = history.date
-            binding.tvTitle.text = history.subject
+            binding.tvDate.text = history.date.toString()
+            binding.tvTitle.text = history.subject.toString()
             binding.tvCoinsValue.text = history.coin.toString()
-            binding.tvStarValue.text = history.star
-            binding.tvTimeValue.text = history.time
+            binding.tvStarValue.text = history.star.toString()
+            binding.tvTimeValue.text = history.time.toString()
 
         }
 

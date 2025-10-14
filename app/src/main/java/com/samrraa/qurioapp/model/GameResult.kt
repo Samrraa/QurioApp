@@ -2,7 +2,7 @@ package com.samrraa.qurioapp.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.samrraa.qurioapp.database.DatabaseConstants.GAME_RESULTS_TABLE
+import com.samrraa.util.constants.DatabaseConstants.GAME_RESULTS_TABLE
 
 @Entity(tableName = GAME_RESULTS_TABLE)
 data class GameResult(
