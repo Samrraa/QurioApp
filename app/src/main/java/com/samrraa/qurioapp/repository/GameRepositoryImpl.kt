@@ -1,6 +1,6 @@
 package com.samrraa.qurioapp.repository
 
-import com.samrraa.qurioapp.database.GameResultDao
+import com.samrraa.qurioapp.datasource.local.dao.GameResultDao
 import com.samrraa.qurioapp.datastore.QurioPreferences
 import com.samrraa.qurioapp.model.Character
 import com.samrraa.qurioapp.model.GameCategory

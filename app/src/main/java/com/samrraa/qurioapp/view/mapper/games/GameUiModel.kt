@@ -1,7 +1,7 @@
 package com.samrraa.qurioapp.view.mapper.games
 
 import com.samrraa.qurioapp.R
-import com.samrraa.qurioapp.view.games.model.GameCategory
+import com.samrraa.qurioapp.model.GameCategory
 import com.samrraa.qurioapp.view.games.model.GameCategoryUi
 
 fun GameCategory.toUi(): GameCategoryUi {
@@ -19,7 +19,12 @@ fun GameCategory.toUi(): GameCategoryUi {
             R.color.green
         )
 
-        GameCategory.SCIENCE -> GameCategoryUi(R.string.science, R.drawable.science, R.color.orange)
+        GameCategory.SCIENCE -> GameCategoryUi(
+            R.string.science,
+            R.drawable.science,
+            R.color.orange
+        )
+
         GameCategory.FILM_AND_TV -> GameCategoryUi(
             R.string.film_tv,
             R.drawable.televtion,
@@ -34,7 +39,7 @@ fun GameCategory.toUi(): GameCategoryUi {
 
         GameCategory.GENERAL_KNOWLEDGE -> GameCategoryUi(
             R.string.general_knowledge,
-            R.drawable.general_knowladge,
+            R.drawable.general_and_knowledge,
             R.color.orange
         )
 
@@ -44,7 +49,12 @@ fun GameCategory.toUi(): GameCategoryUi {
             R.color.primary
         )
 
-        GameCategory.HISTORY -> GameCategoryUi(R.string.history, R.drawable.history, R.color.orange)
+        GameCategory.HISTORY -> GameCategoryUi(
+            R.string.history,
+            R.drawable.history,
+            R.color.orange
+        )
+
         GameCategory.ARTS_AND_LITERATURE -> GameCategoryUi(
             R.string.arts_literature,
             R.drawable.arts_and_literature,
