@@ -65,4 +65,6 @@ dependencies {
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.converter.gson)
     implementation(libs.logging.interceptor)
+    implementation(libs.dagger)
+    ksp(libs.dagger.compiler)
 }
