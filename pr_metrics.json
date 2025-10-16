@@ -2270,20 +2270,10 @@
         "count": 3
       }
     ],
-    "approvals": [
-      {
-        "reviewer": {
-          "login": "fatmahgazy",
-          "id": 143911324,
-          "url": "https://github.com/fatmahgazy"
-        },
-        "submitted_at": "2025-10-16T15:56:58Z",
-        "commit_id": "a7053acf7f8c4ca60bd7b60273804cfa4e6b00c6"
-      }
-    ],
+    "approvals": [],
     "required_approvals": 2,
-    "first_approved_at": "2025-10-16T15:56:58Z",
-    "time_to_first_approval_minutes": 8769.55,
+    "first_approved_at": null,
+    "time_to_first_approval_minutes": null,
     "required_approvals_met_at": null,
     "time_to_required_approvals_minutes": null,
     "closed_at": null,
@@ -2292,9 +2282,9 @@
     "week": "2025-W41",
     "status": "pending",
     "diff_stats": {
-      "additions": 326,
+      "additions": 318,
       "deletions": 0,
-      "changed_files": 9
+      "changed_files": 8
     }
   }
 ]
