@@ -3,4 +3,9 @@
     <string name="keep_it_up">KEEP IT UP!</string>
     <string name="fire_image">fire_image</string>
     <string name="day_fire">day fire</string>
+    <string name="close">Close</string>
+    <string name="sound_setting">Sound</string>
+    <string name="save_changes">Save changes</string>
+    <string name="discard">Discard</string>
+    <string name="settings_dialog">Settings</string>
 </resources>
