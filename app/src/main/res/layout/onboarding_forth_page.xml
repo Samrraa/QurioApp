@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/surface"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/collect_them_all_txt"
+        style="@style/Title.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:gravity="center_horizontal"
+        android:text="@string/collect_them_all"
+        android:textColor="@color/shade_primary"
+        app:layout_constraintBottom_toTopOf="@id/collect_them_all_description_description"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/collect_them_all_description_description"
+        style="@style/Body.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="69dp"
+        android:layout_marginHorizontal="24dp"
+        android:text="@string/collect_them_all_description"
+        app:layout_constraintBottom_toTopOf="@id/collect_them_all_description_img"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/collect_them_all_description_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/collect_them_all_description_img"
+        android:src="@drawable/img_cup"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,7 @@
 package com.samrraa.qurioapp.datastore
 
 import android.content.Context
+import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.intPreferencesKey
 import androidx.datastore.preferences.core.stringPreferencesKey
@@ -22,6 +23,12 @@ class QurioPreferences(private val context: Context) {
     suspend fun storeCharacter(character: Character) {
         context.dataStore.edit {
             it[CHARACTER_KEY] = Gson().toJson(character)
+        }
+    }
+
+    suspend fun setOnboardingComplete(isComplete: Boolean) {
+        context.dataStore.edit {
+            it[ONBOARDING_COMPLETE_KEY] = isComplete
         }
     }
 
@@ -54,12 +61,18 @@ class QurioPreferences(private val context: Context) {
             Character.RIKA
         }
     }
+
+    val onboardingCompleteFlow: Flow<Boolean> = context.dataStore.data.map {
+        it[ONBOARDING_COMPLETE_KEY] ?: false
+    }
+
     val livesFlow: Flow<Int> = context.dataStore.data.map { it[LIVES_KEY] ?: 0 }
     val pointsFlow: Flow<Int> = context.dataStore.data.map { it[POINTS_KEY] ?: 0 }
     val awardsFlow: Flow<Int> = context.dataStore.data.map { it[AWARDS_KEY] ?: 0 }
 
     private companion object {
         val CHARACTER_KEY = stringPreferencesKey("CHARACTER_KEY")
+        val ONBOARDING_COMPLETE_KEY = booleanPreferencesKey("ONBOARDING_COMPLETE_KEY")
         val LIVES_KEY = intPreferencesKey("LIVES_KEY")
         val POINTS_KEY = intPreferencesKey("POINTS_KEY")
         val AWARDS_KEY = intPreferencesKey("AWARDS_KEY")
