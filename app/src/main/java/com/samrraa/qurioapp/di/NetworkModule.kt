@@ -1,9 +1,9 @@
 package com.samrraa.qurioapp.di
 
 import com.samrraa.qurioapp.datasource.remote.api.TriviaApiService
-import com.samrraa.util.constants.NetworkConstants.BASE_URL
-import com.samrraa.util.constants.NetworkConstants.CONNECTION_TIMEOUT
-import com.samrraa.util.constants.NetworkConstants.READ_TIMEOUT
+import com.samrraa.qurioapp.util.NetworkConstants.BASE_URL
+import com.samrraa.qurioapp.util.NetworkConstants.CONNECTION_TIMEOUT
+import com.samrraa.qurioapp.util.NetworkConstants.READ_TIMEOUT
 import dagger.Module
 import dagger.Provides
 import okhttp3.OkHttpClient

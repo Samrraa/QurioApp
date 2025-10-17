@@ -1,10 +1,12 @@
 package com.samrraa.qurioapp.view.lastgames
 
+import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.samrraa.qurioapp.QurioApp
 import com.samrraa.qurioapp.base.BaseFragment
 import com.samrraa.qurioapp.databinding.FragmentLastGamesBinding
 import com.samrraa.qurioapp.presenter.LastGamePresenter
@@ -18,13 +20,16 @@ class LastGamesFragment :
     @Inject
     lateinit var repository: GameRepository
 
+    override fun onAttach(context: Context) {
+        (requireActivity().application as QurioApp).appComponent.inject(this)
+        super.onAttach(context)
+    }
     override fun initViewBinding(
         inflater: LayoutInflater,
         container: ViewGroup?
     ) = FragmentLastGamesBinding.inflate(inflater, container, false)
 
     override fun initPresenter(): LastGamePresenter = LastGamePresenter(repository, this)
-
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -43,6 +48,5 @@ class LastGamesFragment :
             addItemDecoration(SpaceItemDecoration(requireContext(), 12))
         }
     }
-
 
 }

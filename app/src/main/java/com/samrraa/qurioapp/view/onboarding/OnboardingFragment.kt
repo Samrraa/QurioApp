@@ -13,6 +13,11 @@ class OnboardingFragment :
     override fun initViewBinding(
         inflater: LayoutInflater,
         container: ViewGroup?
+    ) = FragmentOnboardingBinding.inflate(inflater, container, false)
+
+    override fun initPresenter() = OnboardingPresenter(this)
+}
+
     ): FragmentOnboardingBinding {
         return FragmentOnboardingBinding.inflate(inflater, container, false)
     }
@@ -21,5 +26,3 @@ class OnboardingFragment :
 
 
     }
-
-

@@ -1,16 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/surface"
-    tools:context=".view.home.HomeFragment">
+    android:fitsSystemWindows="true">
 
-    <TextView
-        android:id="@+id/text_view"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="@string/home" />
+        android:layout_height="wrap_content"
+        android:background="@color/surface"
+        tools:context=".view.home.HomeFragment">
 
-</FrameLayout>
+        <include
+            android:id="@+id/top_bar"
+            layout="@layout/home_top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@id/statistics"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <include
+            android:id="@+id/statistics"
+            layout="@layout/statstics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintBottom_toTopOf="@id/streak"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/top_bar" />
+
+        <include
+            android:id="@+id/streak"
+            layout="@layout/streak_component"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintBottom_toTopOf="@id/games_section"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/statistics" />
+
+        <include
+            android:id="@+id/games_section"
+            layout="@layout/section_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintBottom_toTopOf="@id/games_carousel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/streak" />
+
+        <View
+            android:id="@+id/games_carousel"
+            android:layout_width="match_parent"
+            android:layout_height="414dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/yellow"
+            app:layout_constraintBottom_toTopOf="@id/last_games_section"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/games_section" />
+
+        <include
+            android:id="@+id/last_games_section"
+            layout="@layout/section_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintBottom_toTopOf="@id/rv_last_games"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/games_carousel" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_last_games"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/last_games_section"
+            tools:itemCount="3"
+            tools:listitem="@layout/last_game" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

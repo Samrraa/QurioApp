@@ -12,7 +12,6 @@ class MainActivity : AppCompatActivity() {
         installSplashScreen()
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         (application as QurioApp).appComponent.inject(this)
     }
 
