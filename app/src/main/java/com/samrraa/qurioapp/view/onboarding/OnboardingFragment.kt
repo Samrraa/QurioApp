@@ -23,9 +23,7 @@ class OnboardingFragment :
     override fun initViewBinding(
         inflater: LayoutInflater,
         container: ViewGroup?
-    ): FragmentOnboardingBinding {
-        TODO("Not yet implemented")
-    }
+    ) = FragmentOnboardingBinding.inflate(inflater, container, false)
 
-    override fun initPresenter(): OnboardingPresenter = presenter
+    override fun initPresenter() = OnboardingPresenter(this)
 }

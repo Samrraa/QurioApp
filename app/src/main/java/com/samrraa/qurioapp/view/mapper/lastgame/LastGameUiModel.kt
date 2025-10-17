@@ -2,7 +2,7 @@ package com.samrraa.qurioapp.view.mapper.lastgame
 
 import com.samrraa.qurioapp.model.GameResult
 import com.samrraa.qurioapp.view.lastgames.model.History
-
+import com.samrraa.qurioapp.view.mapper.games.toUi
 
 fun GameResult.toHistoryUi(): History {
     return History(
@@ -10,10 +10,9 @@ fun GameResult.toHistoryUi(): History {
         date = date,
         coin = coinsCount,
         star = starsCount,
-        subject = category,
+        subjectStringRes = category.toUi().title,
         time = durationInSeconds
     )
-
 }
 
 fun List<GameResult>.toHistoryUi() = map { it.toHistoryUi() }

@@ -1,4 +1,4 @@
-package com.samrraa.util.constants
+package com.samrraa.qurioapp.util
 
 object NetworkConstants {
     const val BASE_URL = "https://opentdb.com/"

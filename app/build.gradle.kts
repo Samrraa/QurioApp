@@ -67,4 +67,5 @@ dependencies {
     implementation(libs.logging.interceptor)
     implementation(libs.dagger)
     ksp(libs.dagger.compiler)
+    implementation(libs.kotlinx.datetime)
 }

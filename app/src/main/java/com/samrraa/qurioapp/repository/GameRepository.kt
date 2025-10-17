@@ -10,4 +10,8 @@ interface GameRepository {
     fun getUserCharacter(): Flow<Character>
     fun getLastGames(): List<GameResult>
     fun getQuestions(): List<String>
+    fun getGames(): List<GameCategory>
+    fun getLives(): Flow<Int>
+    fun getPoints(): Flow<Int>
+    fun getAwards(): Flow<Int>
 }
