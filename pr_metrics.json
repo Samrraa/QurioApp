@@ -1969,6 +1969,26 @@
         "first_comment_at": "2025-10-11T04:34:37Z",
         "last_comment_at": "2025-10-11T04:38:22Z",
         "count": 3
+      },
+      {
+        "author": {
+          "login": "Mostafa-alsaygh",
+          "id": 106277855,
+          "url": "https://github.com/Mostafa-alsaygh"
+        },
+        "first_comment_at": "2025-10-14T18:26:07Z",
+        "last_comment_at": "2025-10-14T18:42:36Z",
+        "count": 4
+      },
+      {
+        "author": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "first_comment_at": "2025-10-16T13:33:48Z",
+        "last_comment_at": "2025-10-16T13:37:27Z",
+        "count": 2
       }
     ],
     "approvals": [],
@@ -1983,8 +2003,8 @@
     "week": "2025-W41",
     "status": "pending",
     "diff_stats": {
-      "additions": 523,
-      "deletions": 14,
+      "additions": 507,
+      "deletions": 22,
       "changed_files": 32
     }
   },
