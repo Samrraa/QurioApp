@@ -7,12 +7,11 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.samrraa.qurioapp.base.BaseFragment
 import com.samrraa.qurioapp.databinding.FragmentOnboardingBinding
+import com.samrraa.qurioapp.presenter.OnboardingPresenter
 
-class OnboardingFragment : BaseFragment<FragmentOnboardingBinding>() {
-    override fun initViewBinding(
-        inflater: LayoutInflater,
-        container: ViewGroup?
-    ) = FragmentOnboardingBinding.inflate(inflater, container, false)
+class OnboardingFragment :
+    BaseFragment<FragmentOnboardingBinding, IOnboardingView, OnboardingPresenter>(),
+    IOnboardingView {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -20,4 +19,13 @@ class OnboardingFragment : BaseFragment<FragmentOnboardingBinding>() {
             findNavController().navigate(OnboardingFragmentDirections.actionOnboardingFragmentToHomeFragment())
         }
     }
+
+    override fun initViewBinding(
+        inflater: LayoutInflater,
+        container: ViewGroup?
+    ): FragmentOnboardingBinding {
+        TODO("Not yet implemented")
+    }
+
+    override fun initPresenter(): OnboardingPresenter = presenter
 }

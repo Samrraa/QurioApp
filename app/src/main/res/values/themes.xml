@@ -99,4 +99,35 @@
         <item name="android:textSize">10sp</item>
         <item name="android:lineHeight">14dp</item>
     </style>
+
+
+    <style name="ResultCardShape">
+        <item name="cornerSizeTopLeft">8dp</item>
+        <item name="cornerSizeBottomRight">8dp</item>
+        <item name="cornerSizeTopRight">2dp</item>
+        <item name="cornerSizeBottomLeft">2dp</item>
+        <item name="cornerFamilyTopLeft">cut</item>
+        <item name="cornerFamilyBottomRight">cut</item>
+    </style>
+
+
+    <!-- Button Styles   -->
+    <style name="Button" parent="Label.Medium">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/secondary_button_text_color</item>
+    </style>
+
+    <style name="Button.Primary" parent="Button">
+        <item name="android:background">@drawable/primary_button_background</item>
+        <item name="android:textColor">@drawable/primary_button_text_color</item>
+    </style>
+
+    <style name="Button.Secondary" parent="Button">
+        <item name="android:background">@drawable/secondary_button_background</item>
+    </style>
+
+    <style name="Button.Text" parent="Button">
+        <item name="android:background">#00000000</item>
+    </style>
+
 </resources>
