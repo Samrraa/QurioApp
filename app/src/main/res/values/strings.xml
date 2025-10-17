@@ -33,7 +33,6 @@
     <string name="skipped">Skipped</string>
     <string name="you_lose">You Lose</string>
     <string name="game">Game</string>
-    <string name="loading_game">Loading Game</string>
     <string name="_0_sec">0 Sec</string>
     <string name="no_connection">No Connection</string>
     <string name="offline_error">Oops! It looks like you’re offline. Please check your internet connection to continue playing</string>
