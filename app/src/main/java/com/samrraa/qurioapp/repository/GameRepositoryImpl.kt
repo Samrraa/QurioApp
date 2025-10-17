@@ -2,10 +2,12 @@ package com.samrraa.qurioapp.repository
 
 import com.samrraa.qurioapp.datasource.local.dao.GameResultDao
 import com.samrraa.qurioapp.datastore.QurioPreferences
+import com.samrraa.qurioapp.model.Achievement
 import com.samrraa.qurioapp.model.Character
 import com.samrraa.qurioapp.model.GameCategory
 import com.samrraa.qurioapp.model.GameResult
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.first
 import javax.inject.Inject
 
 class GameRepositoryImpl @Inject constructor(
@@ -19,6 +21,13 @@ class GameRepositoryImpl @Inject constructor(
     override fun getLives(): Flow<Int> = preferences.livesFlow
     override fun getPoints(): Flow<Int> = preferences.pointsFlow
     override fun getAwards(): Flow<Int> = preferences.awardsFlow
+    override fun getAllAchievements(): List<Achievement> = Achievement.entries
+    override suspend fun getMyAchievements(): List<Achievement> =
+        preferences.achievementsFlow.first()
+
+    override suspend fun addAchievement(achievement: Achievement) =
+        preferences.addAchievement(achievement)
+
     override fun getQuestions(): List<String> = listOf(
         "If animals could talk, which one would be the rudest?",
         "Would you rather fight one horse-sized duck or 100 duck-sized horses?",

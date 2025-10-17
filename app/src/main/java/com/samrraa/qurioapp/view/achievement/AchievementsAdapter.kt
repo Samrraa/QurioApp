@@ -2,10 +2,12 @@ package com.samrraa.qurioapp.view.achievement
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
+import com.samrraa.qurioapp.R
 import com.samrraa.qurioapp.databinding.AchievementItemBinding
-import com.samrraa.qurioapp.model.AchievementUi
+import com.samrraa.qurioapp.view.achievement.model.AchievementUi
 
 class AchievementsAdapter(
     val items: MutableList<AchievementUi>,
@@ -60,7 +62,10 @@ class AchievementsAdapter(
     ) : RecyclerView.ViewHolder(binding.root) {
         fun bind(achievementUi: AchievementUi) {
             binding.achievementName.text = achievementUi.title
-            binding.achievementImage.setImageResource(achievementUi.unAchievedImageRes)
+            binding.achievementImage.setImageResource(achievementUi.achievementImageRes)
+            binding.achievementImage.setColorFilter(
+                ContextCompat.getColor(binding.root.context, R.color.surface)
+            )
             binding.root.setOnClickListener {
                 clickListener.openDetails(achievementUi)
             }
