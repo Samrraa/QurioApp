@@ -1,10 +1,7 @@
 package com.samrraa.qurioapp.view.onboarding
 
-import android.os.Bundle
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import androidx.navigation.fragment.findNavController
 import com.samrraa.qurioapp.base.BaseFragment
 import com.samrraa.qurioapp.databinding.FragmentOnboardingBinding
 import com.samrraa.qurioapp.presenter.OnboardingPresenter
@@ -13,13 +10,6 @@ class OnboardingFragment :
     BaseFragment<FragmentOnboardingBinding, IOnboardingView, OnboardingPresenter>(),
     IOnboardingView {
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-        binding.textView.setOnClickListener {
-            findNavController().navigate(OnboardingFragmentDirections.actionOnboardingFragmentToHomeFragment())
-        }
-    }
-
     override fun initViewBinding(
         inflater: LayoutInflater,
         container: ViewGroup?
@@ -27,3 +17,12 @@ class OnboardingFragment :
 
     override fun initPresenter() = OnboardingPresenter(this)
 }
+
+    ): FragmentOnboardingBinding {
+        return FragmentOnboardingBinding.inflate(inflater, container, false)
+    }
+
+    override fun initPresenter(): OnboardingPresenter = OnboardingPresenter(this)
+
+
+    }

@@ -24,7 +24,6 @@ class LastGamesFragment :
         (requireActivity().application as QurioApp).appComponent.inject(this)
         super.onAttach(context)
     }
-
     override fun initViewBinding(
         inflater: LayoutInflater,
         container: ViewGroup?

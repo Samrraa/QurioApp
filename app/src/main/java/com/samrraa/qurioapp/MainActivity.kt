@@ -14,4 +14,5 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         (application as QurioApp).appComponent.inject(this)
     }
+
 }
