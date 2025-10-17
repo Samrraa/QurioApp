@@ -33,6 +33,8 @@
     <string name="skipped">Skipped</string>
     <string name="you_lose">You Lose</string>
     <string name="game">Game</string>
+    <string name="loading_game">Loading Game</string>
+    <string name="_0_sec">0 Sec</string>
     <string name="no_connection">No Connection</string>
     <string name="offline_error">Oops! It looks like you’re offline. Please check your internet connection to continue playing</string>
     <string name="retry">Retry</string>
@@ -52,7 +54,6 @@
     <string name="choose_your_character_img">choose_your_character_img</string>
     <string name="left_arrow">left arrow</string>
     <string name="righ_arrow">righ arrow</string>
-
     <string name="coins_stack_icon">Coins stack icon</string>
     <string name="you_got_a_star">You got a star!</string>
     <string name="start_right_icon">start right icon</string>
@@ -92,6 +93,11 @@
     <string name="click_on_achievement_to_view_details">*Click on achievement to view details</string>
     <string name="achievement_name">Achievement Name</string>
     <string name="achievement_image">achievement image</string>
+    <string name="close">Close</string>
+    <string name="sound_setting">Sound</string>
+    <string name="save_changes">Save changes</string>
+    <string name="discard">Discard</string>
+    <string name="settings_dialog">Settings</string>
     <string name="share">Share disappointment with friends</string>
     <string name="play_again">play again</string>
     <string name="back_to_home">Back to home</string>

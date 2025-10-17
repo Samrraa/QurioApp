@@ -1,9 +1,10 @@
 package com.samrraa.qurioapp.view.lastgames.model
 
 data class History(
-    val date: String,
+    val id: Int,
+    val date: Long = System.currentTimeMillis(),
     val coin: Int,
-    val star: String,
-    val subject: String,
-    val time: String
+    val star: Int,
+    val subjectStringRes: Int,
+    val time: Int
 )

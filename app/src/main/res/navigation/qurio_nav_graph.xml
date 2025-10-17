@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/qurio_nav_graph"
-    app:startDestination="@id/onboardingFragment">
+    app:startDestination="@id/homeFragment">
 
     <fragment
         android:id="@+id/onboardingFragment"
@@ -21,6 +21,12 @@
         <action
             android:id="@+id/action_home_fragment_to_question_fragment"
             app:destination="@id/questionFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_gamesFragment"
+            app:destination="@id/gamesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_lastGamesFragment"
+            app:destination="@id/lastGamesFragment" />
     </fragment>
 
     <fragment

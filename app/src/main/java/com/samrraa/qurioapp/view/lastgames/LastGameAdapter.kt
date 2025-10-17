@@ -5,8 +5,12 @@ import android.graphics.Rect
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
+import com.samrraa.qurioapp.R
 import com.samrraa.qurioapp.databinding.LastGameBinding
+import com.samrraa.qurioapp.util.toFormattedDateString
+import com.samrraa.qurioapp.util.toMinutesSecondsString
 import com.samrraa.qurioapp.view.lastgames.model.History
 
 class LastGameAdapter(
@@ -16,14 +20,18 @@ class LastGameAdapter(
     inner class LastGameCardViewHolder(private val binding: LastGameBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind(history: History) {
-            binding.tvDate.text = history.date
-            binding.tvTitle.text = history.subject
+            binding.tvDate.text = history.date.toFormattedDateString()
+            binding.tvTitle.text = binding.root.context.getString(history.subjectStringRes)
             binding.tvCoinsValue.text = history.coin.toString()
-            binding.tvStarValue.text = history.star
-            binding.tvTimeValue.text = history.time
-
+            binding.tvCoinsValue.setTextColor(
+                ContextCompat.getColor(
+                    binding.root.context,
+                    if (history.coin < 0) R.color.red else R.color.on_primary
+                )
+            )
+            binding.tvStarValue.text = history.star.toString()
+            binding.tvTimeValue.text = history.time.toMinutesSecondsString()
         }
-
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LastGameCardViewHolder {
@@ -52,5 +60,4 @@ class SpaceItemDecoration(
     ) {
         outRect.bottom = (space * context.resources.displayMetrics.density).toInt()
     }
-
 }

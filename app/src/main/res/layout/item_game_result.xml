@@ -50,8 +50,8 @@
                     android:layout_width="40dp"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/ic_coin_stack"
-                    android:contentDescription="@string/coins_stack_icon"/>
+                    android:contentDescription="@string/coins_stack_icon"
+                    android:src="@drawable/ic_coin_stack" />
 
                 <TextView
                     android:id="@+id/total_score"
@@ -194,7 +194,6 @@
         android:id="@+id/victory_section"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:visibility="@{isWon ? View.VISIBLE : View.GONE}"
         app:layout_constraintBottom_toTopOf="@id/result_details_section"
         app:layout_constraintEnd_toEndOf="@id/result_details_section"
         app:layout_constraintStart_toStartOf="@id/result_details_section"
@@ -205,8 +204,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
-            android:src="@drawable/ic_result_shape"
             android:contentDescription="@null"
+            android:src="@drawable/ic_result_shape"
             app:layout_constraintBottom_toTopOf="@id/ribbon_banner"
             app:layout_constraintEnd_toEndOf="@id/ribbon_banner"
             app:layout_constraintStart_toStartOf="@id/ribbon_banner"
@@ -218,8 +217,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
-            android:src="@drawable/banner_ribbon"
             android:contentDescription="@null"
+            android:src="@drawable/banner_ribbon"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -270,9 +269,8 @@
                 android:layout_width="48dp"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
-                android:src="@drawable/ic_star"
                 android:contentDescription="@string/you_got_a_star"
-                android:visibility="@{starsEarned &gt;= 1 ? View.VISIBLE : View.GONE}"
+                android:src="@drawable/ic_star"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
@@ -280,18 +278,17 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:adjustViewBounds="true"
+                android:contentDescription="@string/you_got_a_star"
                 android:paddingTop="2dp"
                 android:src="@drawable/ic_star"
-                android:contentDescription="@string/you_got_a_star"
-                android:visibility="@{starsEarned &gt;= 2 ? View.VISIBLE : View.GONE}"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
                 android:layout_width="48dp"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
-                android:src="@drawable/ic_star"
                 android:contentDescription="@string/you_got_a_star"
+                android:src="@drawable/ic_star"
                 app:layout_constraintStart_toStartOf="parent" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -300,7 +297,6 @@
         android:id="@+id/lose_section"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:visibility="@{isWon ? View.GONE : View.VISIBLE}"
         app:layout_constraintBottom_toTopOf="@id/result_details_section"
         app:layout_constraintEnd_toEndOf="@id/result_details_section"
         app:layout_constraintStart_toStartOf="@id/result_details_section"
