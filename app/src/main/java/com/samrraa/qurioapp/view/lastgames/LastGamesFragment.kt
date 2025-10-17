@@ -8,17 +8,23 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.samrraa.qurioapp.base.BaseFragment
 import com.samrraa.qurioapp.databinding.FragmentLastGamesBinding
 import com.samrraa.qurioapp.presenter.LastGamePresenter
+import com.samrraa.qurioapp.repository.GameRepository
 import com.samrraa.qurioapp.view.lastgames.model.History
+import javax.inject.Inject
 
 class LastGamesFragment :
     BaseFragment<FragmentLastGamesBinding, ILastGamesView, LastGamePresenter>(), ILastGamesView {
+
+    @Inject
+    lateinit var repository: GameRepository
 
     override fun initViewBinding(
         inflater: LayoutInflater,
         container: ViewGroup?
     ) = FragmentLastGamesBinding.inflate(inflater, container, false)
 
-    override fun initPresenter(): LastGamePresenter = presenter
+    override fun initPresenter(): LastGamePresenter = LastGamePresenter(repository, this)
+
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

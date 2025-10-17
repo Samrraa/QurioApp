@@ -1,4 +1,4 @@
-package com.samrraa.qurioapp.datasource.remote.dto
+package com.samrraa.qurioapp.datasource.remote.model
 
 import com.google.gson.annotations.SerializedName
 
