@@ -1167,8 +1167,8 @@
           "url": "https://github.com/fatmahgazy"
         },
         "first_comment_at": "2025-10-04T11:49:55Z",
-        "last_comment_at": "2025-10-04T11:55:05Z",
-        "count": 3
+        "last_comment_at": "2025-10-16T14:00:43Z",
+        "count": 4
       }
     ],
     "approvals": [
@@ -1179,7 +1179,7 @@
           "url": "https://github.com/Mostafa-alsaygh"
         },
         "submitted_at": "2025-10-05T15:08:33Z",
-        "commit_id": "8abe41f2509d076a336672a10d0d6824de0d5b8b"
+        "commit_id": "033cdf1fa287e48f0de60fdd6555b9ad14b7eac9"
       },
       {
         "reviewer": {
@@ -1188,7 +1188,7 @@
           "url": "https://github.com/marwanqashwa"
         },
         "submitted_at": "2025-10-05T19:25:35Z",
-        "commit_id": "8abe41f2509d076a336672a10d0d6824de0d5b8b"
+        "commit_id": "033cdf1fa287e48f0de60fdd6555b9ad14b7eac9"
       }
     ],
     "required_approvals": 2,
@@ -2363,6 +2363,86 @@
     }
   },
   {
+    "pr_number": 68,
+    "url": "https://github.com/Samrraa/QurioApp/pull/68",
+    "title": "feature/32-add-loading-state-component",
+    "opened_at": "2025-10-17T14:38:30Z",
+    "head_ref": "feature/32-add-loading-state-component",
+    "base_ref": "develop",
+    "creator": {
+      "login": "fatmahgazy",
+      "id": 143911324,
+      "url": "https://github.com/fatmahgazy"
+    },
+    "assignees": [
+      {
+        "login": "fatmahgazy",
+        "id": 143911324,
+        "url": "https://github.com/fatmahgazy"
+      }
+    ],
+    "comments": [
+      {
+        "author": {
+          "login": "Abdulrahman-Ragab-01",
+          "id": 76666355,
+          "url": "https://github.com/Abdulrahman-Ragab-01"
+        },
+        "first_comment_at": "2025-10-17T14:53:41Z",
+        "last_comment_at": "2025-10-17T14:53:41Z",
+        "count": 1
+      }
+    ],
+    "approvals": [
+      {
+        "reviewer": {
+          "login": "mohannadahmed00",
+          "id": 43306572,
+          "url": "https://github.com/mohannadahmed00"
+        },
+        "submitted_at": "2025-10-17T19:56:17Z",
+        "commit_id": "99fc44a9cda893e9ba91af4ff9a6979c28414241"
+      },
+      {
+        "reviewer": {
+          "login": "marwanqashwa",
+          "id": 100484790,
+          "url": "https://github.com/marwanqashwa"
+        },
+        "submitted_at": "2025-10-17T19:58:20Z",
+        "commit_id": "99fc44a9cda893e9ba91af4ff9a6979c28414241"
+      },
+      {
+        "reviewer": {
+          "login": "BassantM",
+          "id": 102248144,
+          "url": "https://github.com/BassantM"
+        },
+        "submitted_at": "2025-10-17T19:58:50Z",
+        "commit_id": "99fc44a9cda893e9ba91af4ff9a6979c28414241"
+      }
+    ],
+    "required_approvals": 2,
+    "first_approved_at": "2025-10-17T19:56:17Z",
+    "time_to_first_approval_minutes": 317.78333333333336,
+    "required_approvals_met_at": "2025-10-17T19:58:20Z",
+    "time_to_required_approvals_minutes": 319.8333333333333,
+    "closed_at": "2025-10-17T20:00:46Z",
+    "merged_at": "2025-10-17T20:00:46Z",
+    "merged_by": {
+      "login": "fatmahgazy",
+      "id": 143911324,
+      "url": "https://github.com/fatmahgazy"
+    },
+    "week": "2025-W42",
+    "status": "merged",
+    "diff_stats": {
+      "additions": 115,
+      "deletions": 19,
+      "changed_files": 9
+    }
+  },
+  {
     "pr_number": 69,
     "url": "https://github.com/Samrraa/QurioApp/pull/69",
     "title": "feat: Implement home screen UI and logic",
@@ -2417,8 +2497,8 @@
     "week": "2025-W42",
     "status": "merged",
     "diff_stats": {
-      "additions": 455,
-      "deletions": 81,
+      "additions": 451,
+      "deletions": 77,
       "changed_files": 27
     }
   },
