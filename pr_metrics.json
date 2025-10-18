@@ -1167,8 +1167,8 @@
           "url": "https://github.com/fatmahgazy"
         },
         "first_comment_at": "2025-10-04T11:49:55Z",
-        "last_comment_at": "2025-10-04T11:55:05Z",
-        "count": 3
+        "last_comment_at": "2025-10-16T14:00:43Z",
+        "count": 4
       }
     ],
     "approvals": [
@@ -1179,7 +1179,7 @@
           "url": "https://github.com/Mostafa-alsaygh"
         },
         "submitted_at": "2025-10-05T15:08:33Z",
-        "commit_id": "77e30ba966c3969a746cc532a6fe6b5f3049f1d9"
+        "commit_id": "033cdf1fa287e48f0de60fdd6555b9ad14b7eac9"
       },
       {
         "reviewer": {
@@ -1188,7 +1188,7 @@
           "url": "https://github.com/marwanqashwa"
         },
         "submitted_at": "2025-10-05T19:25:35Z",
-        "commit_id": "77e30ba966c3969a746cc532a6fe6b5f3049f1d9"
+        "commit_id": "033cdf1fa287e48f0de60fdd6555b9ad14b7eac9"
       }
     ],
     "required_approvals": 2,
@@ -1969,23 +1969,66 @@
         "first_comment_at": "2025-10-11T04:34:37Z",
         "last_comment_at": "2025-10-11T04:38:22Z",
         "count": 3
+      },
+      {
+        "author": {
+          "login": "Mostafa-alsaygh",
+          "id": 106277855,
+          "url": "https://github.com/Mostafa-alsaygh"
+        },
+        "first_comment_at": "2025-10-14T18:26:07Z",
+        "last_comment_at": "2025-10-14T18:42:36Z",
+        "count": 4
+      },
+      {
+        "author": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "first_comment_at": "2025-10-16T13:33:48Z",
+        "last_comment_at": "2025-10-16T13:37:27Z",
+        "count": 2
       }
     ],
-    "approvals": [],
+    "approvals": [
+      {
+        "reviewer": {
+          "login": "Abdulrahman-Ragab-01",
+          "id": 76666355,
+          "url": "https://github.com/Abdulrahman-Ragab-01"
+        },
+        "submitted_at": "2025-10-17T21:35:49Z",
+        "commit_id": "ab95cf3bdc4534ecd26ff06b6848f0f0dea58167"
+      },
+      {
+        "reviewer": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "submitted_at": "2025-10-17T21:37:19Z",
+        "commit_id": "ab95cf3bdc4534ecd26ff06b6848f0f0dea58167"
+      }
+    ],
     "required_approvals": 2,
-    "first_approved_at": null,
-    "time_to_first_approval_minutes": null,
-    "required_approvals_met_at": null,
-    "time_to_required_approvals_minutes": null,
-    "closed_at": null,
-    "merged_at": null,
-    "merged_by": null,
+    "first_approved_at": "2025-10-17T21:35:49Z",
+    "time_to_first_approval_minutes": 12959.35,
+    "required_approvals_met_at": "2025-10-17T21:37:19Z",
+    "time_to_required_approvals_minutes": 12960.85,
+    "closed_at": "2025-10-17T21:37:40Z",
+    "merged_at": "2025-10-17T21:37:40Z",
+    "merged_by": {
+      "login": "BassantM",
+      "id": 102248144,
+      "url": "https://github.com/BassantM"
+    },
     "week": "2025-W41",
-    "status": "pending",
+    "status": "merged",
     "diff_stats": {
-      "additions": 523,
-      "deletions": 14,
-      "changed_files": 32
+      "additions": 547,
+      "deletions": 24,
+      "changed_files": 34
     }
   },
   {
@@ -2123,11 +2166,15 @@
     "time_to_first_approval_minutes": 1891.0666666666666,
     "required_approvals_met_at": "2025-10-12T14:24:00Z",
     "time_to_required_approvals_minutes": 3922.016666666667,
-    "closed_at": null,
-    "merged_at": null,
-    "merged_by": null,
+    "closed_at": "2025-10-14T07:22:40Z",
+    "merged_at": "2025-10-14T07:22:40Z",
+    "merged_by": {
+      "login": "fatmahgazy",
+      "id": 143911324,
+      "url": "https://github.com/fatmahgazy"
+    },
     "week": "2025-W41",
-    "status": "approved",
+    "status": "merged",
     "diff_stats": {
       "additions": 374,
       "deletions": 182,
@@ -2232,8 +2279,8 @@
           "url": "https://github.com/Abdulrahman-Ragab-01"
         },
         "first_comment_at": "2025-10-11T15:42:55Z",
-        "last_comment_at": "2025-10-11T16:02:44Z",
-        "count": 16
+        "last_comment_at": "2025-10-16T13:50:49Z",
+        "count": 19
       },
       {
         "author": {
@@ -2242,7 +2289,17 @@
           "url": "https://github.com/Mostafa-alsaygh"
         },
         "first_comment_at": "2025-10-10T16:02:33Z",
-        "last_comment_at": "2025-10-10T16:02:33Z",
+        "last_comment_at": "2025-10-16T13:58:35Z",
+        "count": 12
+      },
+      {
+        "author": {
+          "login": "Mostafa-khaled21",
+          "id": 122157725,
+          "url": "https://github.com/Mostafa-khaled21"
+        },
+        "first_comment_at": "2025-10-16T13:40:11Z",
+        "last_comment_at": "2025-10-16T13:40:11Z",
         "count": 1
       },
       {
@@ -2252,25 +2309,248 @@
           "url": "https://github.com/fatmahgazy"
         },
         "first_comment_at": "2025-10-10T15:59:52Z",
-        "last_comment_at": "2025-10-10T16:01:07Z",
-        "count": 2
+        "last_comment_at": "2025-10-16T13:42:36Z",
+        "count": 3
       }
     ],
-    "approvals": [],
+    "approvals": [
+      {
+        "reviewer": {
+          "login": "Abdulrahman-Ragab-01",
+          "id": 76666355,
+          "url": "https://github.com/Abdulrahman-Ragab-01"
+        },
+        "submitted_at": "2025-10-16T16:22:31Z",
+        "commit_id": "b1d44c59e4d1bdfb7ae86c7708f6c11611e4c7b7"
+      },
+      {
+        "reviewer": {
+          "login": "Mostafa-khaled21",
+          "id": 122157725,
+          "url": "https://github.com/Mostafa-khaled21"
+        },
+        "submitted_at": "2025-10-16T16:23:12Z",
+        "commit_id": "b1d44c59e4d1bdfb7ae86c7708f6c11611e4c7b7"
+      },
+      {
+        "reviewer": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "submitted_at": "2025-10-16T16:23:36Z",
+        "commit_id": "b1d44c59e4d1bdfb7ae86c7708f6c11611e4c7b7"
+      }
+    ],
     "required_approvals": 2,
-    "first_approved_at": null,
-    "time_to_first_approval_minutes": null,
+    "first_approved_at": "2025-10-16T16:22:31Z",
+    "time_to_first_approval_minutes": 8795.1,
+    "required_approvals_met_at": "2025-10-16T16:23:12Z",
+    "time_to_required_approvals_minutes": 8795.783333333333,
+    "closed_at": "2025-10-16T16:23:46Z",
+    "merged_at": "2025-10-16T16:23:46Z",
+    "merged_by": {
+      "login": "Mostafa-alsaygh",
+      "id": 106277855,
+      "url": "https://github.com/Mostafa-alsaygh"
+    },
+    "week": "2025-W41",
+    "status": "merged",
+    "diff_stats": {
+      "additions": 318,
+      "deletions": 0,
+      "changed_files": 8
+    }
+  },
+  {
+    "pr_number": 68,
+    "url": "https://github.com/Samrraa/QurioApp/pull/68",
+    "title": "feature/32-add-loading-state-component",
+    "opened_at": "2025-10-17T14:38:30Z",
+    "head_ref": "feature/32-add-loading-state-component",
+    "base_ref": "develop",
+    "creator": {
+      "login": "fatmahgazy",
+      "id": 143911324,
+      "url": "https://github.com/fatmahgazy"
+    },
+    "assignees": [
+      {
+        "login": "fatmahgazy",
+        "id": 143911324,
+        "url": "https://github.com/fatmahgazy"
+      }
+    ],
+    "comments": [
+      {
+        "author": {
+          "login": "Abdulrahman-Ragab-01",
+          "id": 76666355,
+          "url": "https://github.com/Abdulrahman-Ragab-01"
+        },
+        "first_comment_at": "2025-10-17T14:53:41Z",
+        "last_comment_at": "2025-10-17T14:53:41Z",
+        "count": 1
+      }
+    ],
+    "approvals": [
+      {
+        "reviewer": {
+          "login": "mohannadahmed00",
+          "id": 43306572,
+          "url": "https://github.com/mohannadahmed00"
+        },
+        "submitted_at": "2025-10-17T19:56:17Z",
+        "commit_id": "99fc44a9cda893e9ba91af4ff9a6979c28414241"
+      },
+      {
+        "reviewer": {
+          "login": "marwanqashwa",
+          "id": 100484790,
+          "url": "https://github.com/marwanqashwa"
+        },
+        "submitted_at": "2025-10-17T19:58:20Z",
+        "commit_id": "99fc44a9cda893e9ba91af4ff9a6979c28414241"
+      },
+      {
+        "reviewer": {
+          "login": "BassantM",
+          "id": 102248144,
+          "url": "https://github.com/BassantM"
+        },
+        "submitted_at": "2025-10-17T19:58:50Z",
+        "commit_id": "99fc44a9cda893e9ba91af4ff9a6979c28414241"
+      }
+    ],
+    "required_approvals": 2,
+    "first_approved_at": "2025-10-17T19:56:17Z",
+    "time_to_first_approval_minutes": 317.78333333333336,
+    "required_approvals_met_at": "2025-10-17T19:58:20Z",
+    "time_to_required_approvals_minutes": 319.8333333333333,
+    "closed_at": "2025-10-17T20:00:46Z",
+    "merged_at": "2025-10-17T20:00:46Z",
+    "merged_by": {
+      "login": "fatmahgazy",
+      "id": 143911324,
+      "url": "https://github.com/fatmahgazy"
+    },
+    "week": "2025-W42",
+    "status": "merged",
+    "diff_stats": {
+      "additions": 115,
+      "deletions": 19,
+      "changed_files": 9
+    }
+  },
+  {
+    "pr_number": 69,
+    "url": "https://github.com/Samrraa/QurioApp/pull/69",
+    "title": "feat: Implement home screen UI and logic",
+    "opened_at": "2025-10-17T19:34:34Z",
+    "head_ref": "feature/12-implement-home-screen",
+    "base_ref": "develop",
+    "creator": {
+      "login": "mohannadahmed00",
+      "id": 43306572,
+      "url": "https://github.com/mohannadahmed00"
+    },
+    "assignees": [
+      {
+        "login": "mohannadahmed00",
+        "id": 43306572,
+        "url": "https://github.com/mohannadahmed00"
+      }
+    ],
+    "comments": [],
+    "approvals": [
+      {
+        "reviewer": {
+          "login": "marwanqashwa",
+          "id": 100484790,
+          "url": "https://github.com/marwanqashwa"
+        },
+        "submitted_at": "2025-10-17T20:06:03Z",
+        "commit_id": "c92926c5dc0650f3964695137e58b97730f3ad27"
+      },
+      {
+        "reviewer": {
+          "login": "fatmahgazy",
+          "id": 143911324,
+          "url": "https://github.com/fatmahgazy"
+        },
+        "submitted_at": "2025-10-17T20:08:03Z",
+        "commit_id": "c92926c5dc0650f3964695137e58b97730f3ad27"
+      }
+    ],
+    "required_approvals": 2,
+    "first_approved_at": "2025-10-17T20:06:03Z",
+    "time_to_first_approval_minutes": 31.483333333333334,
+    "required_approvals_met_at": "2025-10-17T20:08:03Z",
+    "time_to_required_approvals_minutes": 33.483333333333334,
+    "closed_at": "2025-10-17T20:09:09Z",
+    "merged_at": "2025-10-17T20:09:09Z",
+    "merged_by": {
+      "login": "mohannadahmed00",
+      "id": 43306572,
+      "url": "https://github.com/mohannadahmed00"
+    },
+    "week": "2025-W42",
+    "status": "merged",
+    "diff_stats": {
+      "additions": 451,
+      "deletions": 77,
+      "changed_files": 27
+    }
+  },
+  {
+    "pr_number": 70,
+    "url": "https://github.com/Samrraa/QurioApp/pull/70",
+    "title": "feat: Implement achievement presenter",
+    "opened_at": "2025-10-17T22:35:42Z",
+    "head_ref": "feature/30-implement-achievements-presenter",
+    "base_ref": "develop",
+    "creator": {
+      "login": "mohannadahmed00",
+      "id": 43306572,
+      "url": "https://github.com/mohannadahmed00"
+    },
+    "assignees": [
+      {
+        "login": "mohannadahmed00",
+        "id": 43306572,
+        "url": "https://github.com/mohannadahmed00"
+      }
+    ],
+    "comments": [],
+    "approvals": [
+      {
+        "reviewer": {
+          "login": "BassantM",
+          "id": 102248144,
+          "url": "https://github.com/BassantM"
+        },
+        "submitted_at": "2025-10-17T22:49:37Z",
+        "commit_id": "db38cace965316a655550785bb836a01c52f3928"
+      }
+    ],
+    "required_approvals": 2,
+    "first_approved_at": "2025-10-17T22:49:37Z",
+    "time_to_first_approval_minutes": 13.916666666666666,
     "required_approvals_met_at": null,
     "time_to_required_approvals_minutes": null,
-    "closed_at": null,
-    "merged_at": null,
-    "merged_by": null,
-    "week": "2025-W41",
-    "status": "pending",
+    "closed_at": "2025-10-17T23:00:21Z",
+    "merged_at": "2025-10-17T23:00:21Z",
+    "merged_by": {
+      "login": "BassantM",
+      "id": 102248144,
+      "url": "https://github.com/BassantM"
+    },
+    "week": "2025-W42",
+    "status": "merged",
     "diff_stats": {
-      "additions": 316,
-      "deletions": 0,
-      "changed_files": 12
+      "additions": 116,
+      "deletions": 16,
+      "changed_files": 44
     }
   }
 ]
